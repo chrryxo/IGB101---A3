@@ -1,0 +1,1366 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32661 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Natasha" at "2026-05-20T23:59:04.2002124Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-20T23:59:04Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 33308, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              a91b2f965cff41daa28ed5bfd6829c39
+  Correlation Id:          8809f92fbedef002e5d070724e8d3810
+  External correlation Id: 4977617662701228095
+  Machine Id:              3hTq2NkgqQKCDU2eLL+kqSL/sUo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Natasha" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Natasha-notifications" at "2026-05-20T23:59:04.2419986Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Natasha/OneDrive - Queensland University of Technology/Documents/Asessments/BGIE/IGB101/IGB101_Group12
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53576
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Natasha/OneDrive - Queensland University of Technology/Documents/Asessments/BGIE/IGB101/IGB101_Group12
+C:/Users/Natasha/OneDrive - Queensland University of Technology/Documents/Asessments/BGIE/IGB101/IGB101_Group12
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [32436]  Target information:
+
+Player connection [32436]  * "[IP] 172.16.7.50 [Port] 0 [Flags] 2 [Guid] 489504360 [EditorId] 489504360 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1LGBNF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Natasha/OneDrive - Queensland University of Technology/Documents/Asessments/BGIE/IGB101/IGB101_Group12/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7896 MB
+    Driver:   32.0.15.9571
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003706 seconds.
+- Loaded All Assemblies, in  0.637 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (254ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768334213238-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\Natasha\OneDrive - Queensland University of Technology\Documents\Asessments\BGIE\IGB101\IGB101_Group12\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <4e339395f8074c75847e518298d9c5fd>:0 
+  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <24e9673f49a94c36a282c67d0a0993d2>:0 
+  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <24e9673f49a94c36a282c67d0a0993d2>:0 
+
+- Loaded All Assemblies, in  0.838 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1723ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6452 unused Assets / (5.3 MB). Loaded Objects now: 7245.
+Memory consumption went from 148.8 MB to 143.5 MB.
+Total: 8.441600 ms (FindLiveObjects: 0.743900 ms CreateObjectMapping: 0.430000 ms MarkObjects: 4.871700 ms  DeleteObjects: 2.394700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 243210.684841 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Materials/FancyStone.mat
+  artifactKey: Guid(b0018f38426903a31b34699fdc517b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Materials/FancyStone.mat using Guid(b0018f38426903a31b34699fdc517b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e340ed93e1963b0cb9682fce86bf8a61') in 0.5281066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Albedo.tga
+  artifactKey: Guid(4966e147b171ba5449703b686a307c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Albedo.tga using Guid(4966e147b171ba5449703b686a307c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2474dce5636b5a618403a6e5982e8bb6') in 0.0229594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/ThirdPersonCamera.cs
+  artifactKey: Guid(949bb69afd9285d4c8ad702b66a2de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/ThirdPersonCamera.cs using Guid(949bb69afd9285d4c8ad702b66a2de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff69761653c77ec788c4cc7576c9003') in 0.0006691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Candle/Smoke.mat
+  artifactKey: Guid(56ab7f0fcee182449915cfcfb72aa45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Candle/Smoke.mat using Guid(56ab7f0fcee182449915cfcfb72aa45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ebac02b8cfa24d4364da3a39e51d520') in 0.0164455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_normal.png
+  artifactKey: Guid(7708fec10f0627a4b9b2270c6c5e7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_normal.png using Guid(7708fec10f0627a4b9b2270c6c5e7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '405e5bec6e9853087e6cf0ca43aff191') in 0.0198146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Icon/Sadako Icon.mat
+  artifactKey: Guid(66377b3a2c3f01542b5ef62390bad316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Icon/Sadako Icon.mat using Guid(66377b3a2c3f01542b5ef62390bad316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d62c7a943d01be2229e1de725401b5') in 2.3456284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Rock/rock texture seamless.jpg
+  artifactKey: Guid(5f7c55647663b1d40825f4d6c33ba424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Rock/rock texture seamless.jpg using Guid(5f7c55647663b1d40825f4d6c33ba424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f5b751753d64245736cc0fbddebeac') in 0.0163507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Wood/Wood_Seamless.mat
+  artifactKey: Guid(eb6cc65b3845fce48b1936b03fd2f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Wood/Wood_Seamless.mat using Guid(eb6cc65b3845fce48b1936b03fd2f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acbb19d73b7f1fe0a051f42584255066') in 0.01813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/End.mat
+  artifactKey: Guid(32b03b1f4cb1f7d41a4feb649c3981a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/End.mat using Guid(32b03b1f4cb1f7d41a4feb649c3981a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bc5ea6ab0e03632fe77feba8fba9a4') in 2.2419846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Materials/Door_11_Materials/Door_11_Milk.mat
+  artifactKey: Guid(45cd74b83ba75fe48b72af3496358228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Materials/Door_11_Materials/Door_11_Milk.mat using Guid(45cd74b83ba75fe48b72af3496358228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd3b2e05b2950629c1c9871844d8b4fd') in 2.1587028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Spec.tga
+  artifactKey: Guid(6d773ea4bb8d124418c97a81becde60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Spec.tga using Guid(6d773ea4bb8d124418c97a81becde60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ae6e37e14b1bd49e408161fa26730c') in 0.0155053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/fly_01.fbx
+  artifactKey: Guid(9650225db6da5e04884ebcc06fa17b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/fly_01.fbx using Guid(9650225db6da5e04884ebcc06fa17b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce416b1adde5a0c46eab41a301e73d7') in 0.2202278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit_L.png
+  artifactKey: Guid(91c76fd8f46d916468b0e5d1082e477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit_L.png using Guid(91c76fd8f46d916468b0e5d1082e477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eae5ac1826a9a2c210c0f01bbd3eb933') in 0.0317463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Natasha Cook (n12407950)/Animations/door open animation.anim
+  artifactKey: Guid(c6d63d3eb27d45d41a89f4632473576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Animations/door open animation.anim using Guid(c6d63d3eb27d45d41a89f4632473576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a0c753b390987f21dbf3ec2aaaefc19') in 0.0015749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c344305f2ca51ffd332a0fa4ea5f624') in 0.000945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_BaseColor.png
+  artifactKey: Guid(47ba77c7b63760d429d42e8e358dbfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_BaseColor.png using Guid(47ba77c7b63760d429d42e8e358dbfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '384dcd26f2066cbd0bc029337fbaeb63') in 0.0161141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png
+  artifactKey: Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_AO.png using Guid(9ae39f2e8316a2246a5a4c3bf6c2ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2502220e7464c931f75b60de88725f4') in 0.0173757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign_Freeway_Exit 1.mat
+  artifactKey: Guid(cc07560d5d15bef418253d7aae3460e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign_Freeway_Exit 1.mat using Guid(cc07560d5d15bef418253d7aae3460e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0800b78aaa1401eae381bf87a9932824') in 0.0179466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Scripts/GameManager.cs
+  artifactKey: Guid(fa2b8a548a2c2be4f91e539f80114b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Scripts/GameManager.cs using Guid(fa2b8a548a2c2be4f91e539f80114b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7aea7193a10902f8fa6db9fc3560b05') in 0.0007006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/butter1.png
+  artifactKey: Guid(4e689a4d2e32d5e45a2bd88142bf875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/butter1.png using Guid(4e689a4d2e32d5e45a2bd88142bf875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '812a84a17f4be334f5302af41fae75c7') in 0.0143211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(d7ea39aea91400f47b5f828c538d49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(d7ea39aea91400f47b5f828c538d49b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeddc5607f42ed9efbf0ccc8e85060d5') in 0.0312784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Butterfly Mask.mask
+  artifactKey: Guid(426a5593d451bdb4aa13247bb94360cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Butterfly Mask.mask using Guid(426a5593d451bdb4aa13247bb94360cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d9f8858cbb9db084d2f018d3a144221') in 0.0014367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Text/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Text/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96865fee699f3fc1abab4b59276a99d0') in 0.001037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/t_pose.fbx
+  artifactKey: Guid(1d553d340c6ed564da93547ec4058847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/t_pose.fbx using Guid(1d553d340c6ed564da93547ec4058847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6886f1547208c944cb251807ec51fcf') in 0.0560922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/turn.fbx
+  artifactKey: Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/turn.fbx using Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25dc5ba40d49c194bcbdb1afc321baf7') in 0.0776114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/stone-med-toon.png
+  artifactKey: Guid(b2c105f443f1521088218f997418157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/stone-med-toon.png using Guid(b2c105f443f1521088218f997418157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '735b8d9d7cec8b35538ea8adaf88ef91') in 0.0180208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga
+  artifactKey: Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7585d975faa263e45879d80fc8e068e3') in 0.0218832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Natasha Cook (n12407950)/Scripts/LevelSwitch.cs
+  artifactKey: Guid(f317445c79406414aa9e22273eec24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Scripts/LevelSwitch.cs using Guid(f317445c79406414aa9e22273eec24f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7d672ecd1512afcc7df33d2f95dc030') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Bee.prefab
+  artifactKey: Guid(267a42c8475f6d94f97924478147d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Bee.prefab using Guid(267a42c8475f6d94f97924478147d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7e117bb3ebbd0a0623adcdd4c844950') in 2.7840237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Spotlight.fbx
+  artifactKey: Guid(204ef55864c1e9140ac2474c00ff2d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Spotlight.fbx using Guid(204ef55864c1e9140ac2474c00ff2d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b2027e9dc7b212c3c1a7f183d86dc0') in 0.0904131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_n.tga
+  artifactKey: Guid(db82daf61262e8e469bf56b16542215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_n.tga using Guid(db82daf61262e8e469bf56b16542215e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '868fd310449fe47cc7036f1709030395') in 0.01733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Spec.tga
+  artifactKey: Guid(5484aa2081f79b74489170c904cb880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Spec.tga using Guid(5484aa2081f79b74489170c904cb880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'babf3cad575d7e29d5d513ecd85798b0') in 0.0208616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_Normal.png
+  artifactKey: Guid(5d3693fbf1208004f98a8f39cdf0d88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_Normal.png using Guid(5d3693fbf1208004f98a8f39cdf0d88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a4def3e5fc95d0c24fd29e304dfc3bc') in 0.0173585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Albedo.png
+  artifactKey: Guid(2111e868463b68941af27b5b33a429bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Albedo.png using Guid(2111e868463b68941af27b5b33a429bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0710a34506a22e4fe28c0734f484de1c') in 0.018327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Built-In_RPMaterials/Aged Dark Wood.mat
+  artifactKey: Guid(5ad41f24a4997084795921bb86433244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Built-In_RPMaterials/Aged Dark Wood.mat using Guid(5ad41f24a4997084795921bb86433244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe9497109b28ab7df67008d6d6d3ea23') in 0.0309048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_height.png
+  artifactKey: Guid(41ee5389a45424b4a80528258a4c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_height.png using Guid(41ee5389a45424b4a80528258a4c236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e7df39d43ca7a493ea6b72af543fcc1') in 0.0164968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundSpecular.png
+  artifactKey: Guid(50a2a7a3edc7ed54f909aae75100cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundSpecular.png using Guid(50a2a7a3edc7ed54f909aae75100cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98044a39fb559de817ca78be7b9f5c99') in 0.0146722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Rock/rock normal.png
+  artifactKey: Guid(c0785c87a64fd594e8319f44a416763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Rock/rock normal.png using Guid(c0785c87a64fd594e8319f44a416763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a366bf591bb9779685832af7e246e33e') in 0.0159533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Built-In_RPMaterials/Brushed Iron.mat
+  artifactKey: Guid(926edc49a6cbafe4ea4e21ef418ab009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Built-In_RPMaterials/Brushed Iron.mat using Guid(926edc49a6cbafe4ea4e21ef418ab009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ae6e6c0119d849bad017134f6302004') in 2.6968678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/idle.fbx
+  artifactKey: Guid(0850654a58f03c7409e5603f174adf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/idle.fbx using Guid(0850654a58f03c7409e5603f174adf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c792a66410380c30b7734a4f4879ae5') in 0.0039139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/walking.fbx
+  artifactKey: Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/walking.fbx using Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1922fcceda4e41579dfd740ad351f7cb') in 0.0035145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit.png
+  artifactKey: Guid(79d5c991a86d34345991a3c2a9398b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit.png using Guid(79d5c991a86d34345991a3c2a9398b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7034fe8a13ccf3085590e8e21aab578c') in 0.018464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Snow1.prefab
+  artifactKey: Guid(9bf11376a8236d3428c2074c4d762926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Snow1.prefab using Guid(9bf11376a8236d3428c2074c4d762926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5560f7ff4aef50b5b9968697c6f00d3b') in 2.6493842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/muha.png
+  artifactKey: Guid(85b132730663b324c8a4615dabd8122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/muha.png using Guid(85b132730663b324c8a4615dabd8122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0248269c313ecfc34edd800d67e9844f') in 0.0151153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Prefabs/Freeway/Sign_Exit_L.prefab
+  artifactKey: Guid(af03721290a2f674d8ba898d187b9e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Prefabs/Freeway/Sign_Exit_L.prefab using Guid(af03721290a2f674d8ba898d187b9e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67072f8b74f4e5ee46795398a9f561d8') in 0.0254506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/butterfly_01.fbx
+  artifactKey: Guid(d5a7f828a025d1b4b8707f825d07cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/butterfly_01.fbx using Guid(d5a7f828a025d1b4b8707f825d07cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff421ec3abca9699bf950458092448bc') in 0.025491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_s.tga
+  artifactKey: Guid(730bcd03f3c67be45b71b832acfe49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_s.tga using Guid(730bcd03f3c67be45b71b832acfe49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c3abf63297807fd1604122a19c3ec4') in 0.0157449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Audio/Do You Feel It - Chaos Chaos.mp3
+  artifactKey: Guid(d48ac92b2693f484b84fbaaea1fb7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Audio/Do You Feel It - Chaos Chaos.mp3 using Guid(d48ac92b2693f484b84fbaaea1fb7d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '510af5ec688b348e71cf839ff62be28a') in 0.0341745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Natasha Cook (n12407950)/Animations/door close animation.anim
+  artifactKey: Guid(3092f2c3dbb61654b8aa537cef662f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Animations/door close animation.anim using Guid(3092f2c3dbb61654b8aa537cef662f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca643f54c6bd317a2b2bbd6cd1ba5c66') in 0.0013138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Albedo.tga
+  artifactKey: Guid(74b5905cfa9d4e34aa782bbde93dc37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Albedo.tga using Guid(74b5905cfa9d4e34aa782bbde93dc37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f8376141020569b4961199f753ddf7e') in 0.0181078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Standing.prefab
+  artifactKey: Guid(3ea7a4ae93efc034d8d6eee376c36753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Standing.prefab using Guid(3ea7a4ae93efc034d8d6eee376c36753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00ee53a1918001537f020cdca88120a6') in 5.1614484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Models/Sign Backing.fbx
+  artifactKey: Guid(bf0e0b8fe71c14448a21fb3412beb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Models/Sign Backing.fbx using Guid(bf0e0b8fe71c14448a21fb3412beb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '432a5541bed0c85b7dfb9674da3c41a9') in 0.0671683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/Materials/Beta_Body_MAT.mat
+  artifactKey: Guid(34e2416e47da90f44a44c53426dd994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/Materials/Beta_Body_MAT.mat using Guid(34e2416e47da90f44a44c53426dd994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd07cff53ae418cf4d0b5b476e794a4ff') in 0.0156852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Height.png
+  artifactKey: Guid(ed75473234df47c4cb1b631ffd55f38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Height.png using Guid(ed75473234df47c4cb1b631ffd55f38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08565e4744fd4c151bf4f028df4908d5') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model.fbx
+  artifactKey: Guid(a358f9e10592a7d47851a8671a4a1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model.fbx using Guid(a358f9e10592a7d47851a8671a4a1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c621e29369c4d99dfd0c1ebd4cdba48c') in 0.0478427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundNormal.png
+  artifactKey: Guid(845f149a3e632ec4ca86bbf2ab5cd98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundNormal.png using Guid(845f149a3e632ec4ca86bbf2ab5cd98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e4028ccd851219fcfc22e4754b4ecf') in 0.0161719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Book_Material.mat
+  artifactKey: Guid(322151249e6eb154e90d9b42dec25ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Book_Material.mat using Guid(322151249e6eb154e90d9b42dec25ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a84c4a9c41592214126a4ca93aea952') in 2.4377797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png
+  artifactKey: Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Metallic.png using Guid(be2f8d770f6be0d4fae301de933abab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ddef4f2a75ad838adca92a51dc54bcb') in 0.0188492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Room Ambience IMG/Materials/backrooms.mat
+  artifactKey: Guid(1ab7318b7cc084644983b60179953dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Room Ambience IMG/Materials/backrooms.mat using Guid(1ab7318b7cc084644983b60179953dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e49048cd9491f62ea2f79f2f0e9987') in 0.0190515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Meshes/Trim.fbx
+  artifactKey: Guid(1b8bec8707620f8efb70e424307eb41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Meshes/Trim.fbx using Guid(1b8bec8707620f8efb70e424307eb41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecefbeab8f1896c62ec10ed3cf7813cc') in 0.1580879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Player.prefab
+  artifactKey: Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Player.prefab using Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '990db66d9df38285701b4e7d66a251a0') in 1.9658839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Text/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Text/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cdac2cc06349165a5d33742ab80c237') in 0.0014127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Butterfly.prefab
+  artifactKey: Guid(d10e13372d41b754cb05474680f880e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Butterfly.prefab using Guid(d10e13372d41b754cb05474680f880e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d270feca681ca1438814decd7a67b4') in 2.3148616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Thunder IMG/Materials/thunder.mat
+  artifactKey: Guid(12f580321b3688b4d8eaad4cef01c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Thunder IMG/Materials/thunder.mat using Guid(12f580321b3688b4d8eaad4cef01c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a1461118bd61d2170103b0781c76cd') in 0.0216707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Butter2.mat
+  artifactKey: Guid(a7f02d1b42fa6c4418def6552ebe52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Butter2.mat using Guid(a7f02d1b42fa6c4418def6552ebe52e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9362679876a3e301bbfec15ba89922ac') in 0.0175173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/Sandstone-hr.png
+  artifactKey: Guid(908e9139eb4ea59ada36eaea20769248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/Sandstone-hr.png using Guid(908e9139eb4ea59ada36eaea20769248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f8bedcf1fd4f2c6be443d6c544f8ed4') in 0.0153248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Fly.mat
+  artifactKey: Guid(0e7c284b09fa01441bc7d225f3ffac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Fly.mat using Guid(0e7c284b09fa01441bc7d225f3ffac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ce3c7d756d12ec593b79c995075dba') in 0.0195967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Thunder IMG/thunder.jpg
+  artifactKey: Guid(a93769c4f0b72164cbfc85f3530e1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Thunder IMG/thunder.jpg using Guid(a93769c4f0b72164cbfc85f3530e1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a91c3f03a402a6540007c6cedcc3cca') in 0.0146357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass02.tga
+  artifactKey: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d345e64d7e06370caa502c1bbaed236') in 0.0156562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(7c9d28243de2b104c84ed48a0a912259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_OcclusionRoughnessMetallic.png using Guid(7c9d28243de2b104c84ed48a0a912259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d940fff0c52713dda059cf6c8c8c12') in 0.0181644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower04.tga
+  artifactKey: Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower04.tga using Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4467aeacd4564e2cac388e72b6aa2258') in 0.0224641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Meshes/Pillers-001.fbx
+  artifactKey: Guid(d0405892aef4fdc98989289da37127ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Meshes/Pillers-001.fbx using Guid(d0405892aef4fdc98989289da37127ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31b3843d40fad2de58ad2c095514a0a') in 0.0598043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_AO.png
+  artifactKey: Guid(81810c6440aa6a040922247b15447cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_AO.png using Guid(81810c6440aa6a040922247b15447cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd6e29f967f008f88a73fb2867240b35') in 0.0191085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e30e3a4174b073ff4a07e6ade64d6510') in 0.0501648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Models/Materials/No Name.mat
+  artifactKey: Guid(2b3ef0b92622e6b4fbadc30b83b8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Models/Materials/No Name.mat using Guid(2b3ef0b92622e6b4fbadc30b83b8b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78444f8295ecfdce7c5a921a4719202') in 0.0177297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_basecolor.png
+  artifactKey: Guid(5d1a95b9afaecba43a20cd23b5fe3d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_basecolor.png using Guid(5d1a95b9afaecba43a20cd23b5fe3d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa79fcde224c67391ed5a923b50a5d9c') in 0.016224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Standard 2 Sided.shader
+  artifactKey: Guid(736bf69d62cb0664aa7564100de4d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Standard 2 Sided.shader using Guid(736bf69d62cb0664aa7564100de4d247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22be742e942e4ee70b73a443d7edb697') in 0.0009827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e56ed46c2d4246d2dc42ddb4eb712b') in 0.0006922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight.mat
+  artifactKey: Guid(2d79e347e12c2484a8abc66e594c25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight.mat using Guid(2d79e347e12c2484a8abc66e594c25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7442fb89fd3e7f8faa693310f528813a') in 0.0215735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Fly.prefab
+  artifactKey: Guid(17db03e7da72de84a808c2b233327bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Fly.prefab using Guid(17db03e7da72de84a808c2b233327bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38e6ef7c54fa946d95edda5f37869a15') in 0.0129702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Normal.png
+  artifactKey: Guid(7d93ec18be30d0340b3270211bba118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Normal.png using Guid(7d93ec18be30d0340b3270211bba118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0adbe1c6595862edac3b52ca3072e8') in 0.0188632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower10.tga
+  artifactKey: Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower10.tga using Guid(dcefc591c195a9f468e9157baa03eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aed52ec12c52511c4091ee564cd86f1') in 0.017418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Coat of Arms/Coat of Arms copy.png
+  artifactKey: Guid(290d516b966797a4bb3851c58b682c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Coat of Arms/Coat of Arms copy.png using Guid(290d516b966797a4bb3851c58b682c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62297ed73a6ecdf1bd6c335fb3e9c123') in 0.0210939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animator Controller.controller
+  artifactKey: Guid(407a5ab780b28b148b2cd8cfb643ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animator Controller.controller using Guid(407a5ab780b28b148b2cd8cfb643ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0ec668381dbfbfcb767d8fed8991d07') in 0.0049035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_roughness.png
+  artifactKey: Guid(f736710ec3fd2e945943d4d91bfb8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_roughness.png using Guid(f736710ec3fd2e945943d4d91bfb8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f74afff27a0744ee2469358f88ca7c93') in 0.0141545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Materials/ToonStone.mat
+  artifactKey: Guid(cb0c93615a0fd8511808de93b9c0a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Materials/ToonStone.mat using Guid(cb0c93615a0fd8511808de93b9c0a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74a8556e5444c8e82b653fafd5649807') in 0.0190606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/FancyStone-01-lt-p.png
+  artifactKey: Guid(14e1c66a29fe73bd08c1621a97baa79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/FancyStone-01-lt-p.png using Guid(14e1c66a29fe73bd08c1621a97baa79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b292d76b26ce04005ef1491b81a71d80') in 0.0170617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass01.tga
+  artifactKey: Guid(91a1945982e98be4d9fe3e3d12fdebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass01.tga using Guid(91a1945982e98be4d9fe3e3d12fdebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e40199c8583a7447e4a6645a15d2a2') in 0.0167218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ac24c600ab9b7f9a668927746db18c') in 0.0211489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Butter.mat
+  artifactKey: Guid(b54af042a15bbc6459c261fb2c596fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Butter.mat using Guid(b54af042a15bbc6459c261fb2c596fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be822f7d0baa46a2dea5132f519a81ad') in 0.0167959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat
+  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a10fad4e1c7b3a2bdef4e0ca0896e11d') in 0.0197789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Roughness.png
+  artifactKey: Guid(01a1e8e5d16b868458825f89a4ab2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Roughness.png using Guid(01a1e8e5d16b868458825f89a4ab2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab8abe6a331bd3bef352e70d91b19d6') in 0.0192367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign_Freeway_Exit_L.mat
+  artifactKey: Guid(e4305ecf3c231904c9c445d17f41cd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign_Freeway_Exit_L.mat using Guid(e4305ecf3c231904c9c445d17f41cd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a4d7eb11bdd12a43cfa5344f1a22d06') in 0.0190836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Normal.tga
+  artifactKey: Guid(0931beb60c162d54690836322d97454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Normal.tga using Guid(0931beb60c162d54690836322d97454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9cc71679709d329760125ef8f1da4c4') in 0.020834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_emission.png
+  artifactKey: Guid(263463898181f1a4b805a669d4717e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_emission.png using Guid(263463898181f1a4b805a669d4717e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c67f644ba5903b31cd3d452fabf6961') in 0.0375727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/waving.fbx
+  artifactKey: Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/waving.fbx using Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aebd931ca28db05f7fcfefb2608b2a98') in 0.0050151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Natasha Cook (n12407950)/Audio/Thunder Rumble Bass Normalised.wav
+  artifactKey: Guid(572eb41d72644324e89cbf8aab8fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Audio/Thunder Rumble Bass Normalised.wav using Guid(572eb41d72644324e89cbf8aab8fb8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63895f7ab9b931ab655a3f01a2460111') in 0.0170638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Butterfly.controller
+  artifactKey: Guid(cd195c6b6d7fd6b44ad63e28424aae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Butterfly.controller using Guid(cd195c6b6d7fd6b44ad63e28424aae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e78010f7fe3562d451a75ee1533b8b') in 0.0030901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Snow_1.mat
+  artifactKey: Guid(ed1c3636f43425544b15152ec090f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Materials/Snow_1.mat using Guid(ed1c3636f43425544b15152ec090f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f103ce3ccd19928ddfec161a7db7a8') in 0.0235773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign Backing.mat
+  artifactKey: Guid(3b1eceb6bfe85c24c9add49ea4ceb70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Materials/Sign Backing.mat using Guid(3b1eceb6bfe85c24c9add49ea4ceb70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd6fea7ea796a72bc14e4ec54670a5fb') in 0.0107944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundAO.png
+  artifactKey: Guid(52a14e2226d6439408767fb601a7ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundAO.png using Guid(52a14e2226d6439408767fb601a7ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3c320d322d19fac321279729b927b6e') in 0.0170995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Normal.tga
+  artifactKey: Guid(b7f238f3a1a35614d9f9d52d81174df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Normal.tga using Guid(b7f238f3a1a35614d9f9d52d81174df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f96d56ba3cca6c1a7410320cec7d53d9') in 0.0182439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b72c935079ba95563e246d02d57d535f') in 0.0010795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_Normal.png
+  artifactKey: Guid(b78c7b5282bdb4d4f86d20a10f43158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_Normal.png using Guid(b78c7b5282bdb4d4f86d20a10f43158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dfc20555856f413b3abb33e411c7342') in 0.0174972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Prefab/Pillars/Whole/End Pillar 01 Tapper.prefab
+  artifactKey: Guid(076de46b484978a9d88d4c869beb3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Prefab/Pillars/Whole/End Pillar 01 Tapper.prefab using Guid(076de46b484978a9d88d4c869beb3827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44193050c9ca916fa6afd6f67f548565') in 0.0167498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/PlayerMovement.cs
+  artifactKey: Guid(39d7cb1f7aa15304ca069dabfe2dc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/PlayerMovement.cs using Guid(39d7cb1f7aa15304ca069dabfe2dc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb605a69cf7e6c246eadcf1533fbf9c0') in 0.0006868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Rock/Rock.mat
+  artifactKey: Guid(8d8457e86941b1c4ba0fbb89e01feb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Rock/Rock.mat using Guid(8d8457e86941b1c4ba0fbb89e01feb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5945f71e325fb5a90e3371ea944edf86') in 2.3983689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Normal.png
+  artifactKey: Guid(429af1c44709aab47a20350761071b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/AgedDarkWood/AgedDarkWood_Normal.png using Guid(429af1c44709aab47a20350761071b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0d0f7d2b85a1a7c72aeb06c4da84c79') in 0.0198804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign Backing.png
+  artifactKey: Guid(7ac9ba4feda784045b8b80b4f476669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign Backing.png using Guid(7ac9ba4feda784045b8b80b4f476669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6a57ac11d512fba0f1b8a233b73fa2') in 0.0186855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Smoothness.png
+  artifactKey: Guid(8113a93f4bc2dc04badf36c17127e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/WorldMaterialsFree/Resource Files/BrushedIron/BrushedIron_Smoothness.png using Guid(8113a93f4bc2dc04badf36c17127e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c715017baac8d99df1be175753ffc5') in 0.0189445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Wood/wood texture copy.png
+  artifactKey: Guid(cb5bbff27fb67644c99063b4fca3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Wood/wood texture copy.png using Guid(cb5bbff27fb67644c99063b4fca3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd408fea3988e4dbf401ff029a13cbf86') in 0.0164319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Natasha Cook (n12407950)/Scripts/Pickup.cs
+  artifactKey: Guid(20b433401fed70449b08835950b7842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Scripts/Pickup.cs using Guid(20b433401fed70449b08835950b7842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87dc7cea3aaaa2a7c7d9a0be244dd4ed') in 0.0006601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Skybox/Panoramics/FS002/FS002_Night.mat
+  artifactKey: Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Skybox/Panoramics/FS002/FS002_Night.mat using Guid(d1fdb8e44b28da34d9e922cca0bc740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dbb55e879c14eb6d3f5b476e3845df4') in 0.0223152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/Ground/Grass01_BigUV.png
+  artifactKey: Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/Ground/Grass01_BigUV.png using Guid(38bb15d6b378aff46b461e248592d1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a457547fba3cb0d5e180e46e3d50b27') in 0.0236406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_BaseColor.png
+  artifactKey: Guid(b7e5fa8d2700c7e4291cdc8f7ce39acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Model_standardSurface1_BaseColor.png using Guid(b7e5fa8d2700c7e4291cdc8f7ce39acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db46d4140a48d64b1b0d73976caff367') in 0.0186257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c056a55912536548b9d1c5c5eab084a') in 0.0316251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/FancyStone-01-lt-hr.png
+  artifactKey: Guid(dcc87638c495b73a9867e6dc1ed8016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Textures/FancyStone-01-lt-hr.png using Guid(dcc87638c495b73a9867e6dc1ed8016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '906e2c6ca973c7eb9087bfdc3d079bd1') in 0.0153121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Prefab_Cube.prefab
+  artifactKey: Guid(74770fff02d22d6409c5227000f48968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Prefab_Cube.prefab using Guid(74770fff02d22d6409c5227000f48968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10fc2a507f69327ae0b307ff6639fe85') in 0.0226959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/running.fbx
+  artifactKey: Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/running.fbx using Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1321dc6175f1141af72d5e721be43b') in 0.0035892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Materials/M_YFCM_Plastered.mat
+  artifactKey: Guid(c7c65b143bcec81478a96e7af9f81cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Materials/M_YFCM_Plastered.mat using Guid(c7c65b143bcec81478a96e7af9f81cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24b411a83dbc1fff123f5b3bb43acb5') in 0.0200037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Materials/Door_Knob_Material/Silver.mat
+  artifactKey: Guid(74d049c34000329458b9b53fadd16377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Materials/Door_Knob_Material/Silver.mat using Guid(74d049c34000329458b9b53fadd16377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '058724010e054548b821db0613a1f5b9') in 0.0232469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Icon/Sadako Icon by chrryxo.png
+  artifactKey: Guid(44c9561d9a4ee2c40a5a2fb68b72be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Icon/Sadako Icon by chrryxo.png using Guid(44c9561d9a4ee2c40a5a2fb68b72be91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cadeb74a576caf022e7380b863ed3ea8') in 0.0209442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower01.tga
+  artifactKey: Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grassFlower01.tga using Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0bec60288ab116c24a8be880c0e7d44') in 0.0192125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Prefab/Pillars/Whole/PIller 01.prefab
+  artifactKey: Guid(0ca30ca74d5adfbbda80e4e0357eb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Pillars/Prefab/Pillars/Whole/PIller 01.prefab using Guid(0ca30ca74d5adfbbda80e4e0357eb4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a429baf77660dafeb605a8ff0dd9bc1') in 0.0173912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Natasha Cook (n12407950)/Skybox/Panoramics/FS002/FS002_Night.png
+  artifactKey: Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Skybox/Panoramics/FS002/FS002_Night.png using Guid(3cf4d52b14bd4254d9f4fd063f8d9bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d6fd3f79fb68c3b4a85fde35d7f301') in 0.0178399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundDiffuse.png
+  artifactKey: Guid(9926e1a57cab9dc43a2fcfe560fb760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Concrete/Clean_Concrete_GroundDiffuse.png using Guid(9926e1a57cab9dc43a2fcfe560fb760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '544325d4f516d58fe4a4b8a0809f3387') in 0.0229019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/Snow.png
+  artifactKey: Guid(c75bea7930ded83438c971bbf7023591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/Snow.png using Guid(c75bea7930ded83438c971bbf7023591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e8d36d815c8bffc689b01d43407b84') in 0.0158409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Textures/Robot_Color.tga
+  artifactKey: Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Robot Kyle/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecbea639dcbd7fa84927488f4cdbb9d') in 0.014301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga
+  artifactKey: Guid(9fe329039800807419f8524939fdf3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/YughuesFreeConcreteMaterials/Textures/T_YFCM_Plastered_d.tga using Guid(9fe329039800807419f8524939fdf3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57cb4007243cf72a31d36d1591e8ad89') in 0.0161012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Coat of Arms/Materials/Coat of Arms copy.mat
+  artifactKey: Guid(9b1012d204c137f428ae94bc1483d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Coat of Arms/Materials/Coat of Arms copy.mat using Guid(9b1012d204c137f428ae94bc1483d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f62143d7c9157cdf6c85a66d58e007c') in 0.0235842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Concrete/MM_Clearn_Concrete.mat
+  artifactKey: Guid(e2c445105a4bdf74aa1b25aa6baa2c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Concrete/MM_Clearn_Concrete.mat using Guid(e2c445105a4bdf74aa1b25aa6baa2c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '004bd5d0480a7766461d71e5409097b3') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Natasha Cook (n12407950)/Audio/Room Ambience trimmed.mp3
+  artifactKey: Guid(bbbc8d24fa40a384a8091b0adc5b8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Audio/Room Ambience trimmed.mp3 using Guid(bbbc8d24fa40a384a8091b0adc5b8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f821e70f0d2c15d57709bea47fd7723c') in 0.01663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Buttterfly_Track.anim
+  artifactKey: Guid(c8b78e54d84950e4fb617c59f68db1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Models/Buttterfly_Track.anim using Guid(c8b78e54d84950e4fb617c59f68db1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a31ec10099aa0df46bba39a197e347c') in 0.0016308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_AO.tga
+  artifactKey: Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_AO.tga using Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c734d51a8d9d5d75a3463a22db0c5dc8') in 0.0151228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle_Material.mat
+  artifactKey: Guid(e8c84aa8e71072c4b8113d4801588d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle_Material.mat using Guid(e8c84aa8e71072c4b8113d4801588d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecfc04a82773aff6ae1582babf516d75') in 0.0249656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Standing.mb
+  artifactKey: Guid(e6b3ae5e211a0274eb27cff1c46be066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Candle/Candle Standing.mb using Guid(e6b3ae5e211a0274eb27cff1c46be066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd33654f75bc0d70facf7a169db26ac') in 0.0426367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/Materials/Beta_Joints_MAT.mat
+  artifactKey: Guid(c15d781ca59a2ca498adb8964d59a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Third Person Controller/Animations/Materials/Beta_Joints_MAT.mat using Guid(c15d781ca59a2ca498adb8964d59a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e9facfe0fa54eafa7372b2e8112efa') in 0.0163879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(70e39edcac25da44bb045133b3069306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_OcclusionRoughnessMetallic.png using Guid(70e39edcac25da44bb045133b3069306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '195c5ec7497c58f7d5fa18648db4da01') in 0.016931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Natasha Cook (n12407950)/Materials/Room Ambience IMG/backrooms.jpg
+  artifactKey: Guid(f90df4b19ced9ab43be98c5492cfcfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Materials/Room Ambience IMG/backrooms.jpg using Guid(f90df4b19ced9ab43be98c5492cfcfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0c652f24c07c42b1441a33fd54b189b') in 0.0150744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain/New Terrain 1.asset
+  artifactKey: Guid(2631b10b0ffad844098ff8873145fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain 1.asset using Guid(2631b10b0ffad844098ff8873145fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f080b10561a718011d2fd71ed098c75') in 0.100524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Butterfly3.prefab
+  artifactKey: Guid(6f154d721d1da7f428545dc3aef70f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Prefabs/Butterfly3.prefab using Guid(6f154d721d1da7f428545dc3aef70f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bee0729e5f9a00edaeb2215e9d852bf7') in 0.0221345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/butter2.png
+  artifactKey: Guid(b6a6cd420918d3e498a97c45ba762eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Nature/Art/Textures/butter2.png using Guid(b6a6cd420918d3e498a97c45ba762eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a1ab9dfb1c8a2c978bdbcccd7b4731b') in 0.0140753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
