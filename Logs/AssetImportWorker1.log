@@ -1,0 +1,365 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy" at "2026-05-27T06:35:44.5228403Z"
+Process architecture: x64
+Date: 2026-05-27T06:35:44Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Github/IGB101---A3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63228
+-licensingIpc
+LicenseClient-leafy
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Github/IGB101---A3
+D:/Github/IGB101---A3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [18764]  Target information:
+
+Player connection [18764]  * "[IP] 10.88.39.247 [Port] 0 [Flags] 2 [Guid] 2335565562 [EditorId] 2335565562 [Version] 1048832 [Id] WindowsEditor(7,floolf) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18764] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 697.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/IGB101---A3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     8043 MB
+    Driver:   32.0.101.6989
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.105938 seconds.
+- Loaded All Assemblies, in  4.789 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 5654ms
+	BeginReloadAssembly (4095ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (4093ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (498ms)
+			TypeCache.Refresh (496ms)
+				TypeCache.ScanAssembly (483ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (523ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-leafy"
+[Licensing::IpcConnector] LicenseClient-leafy channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy-6000.3.15" at "2026-05-27T06:36:08.7147363Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21080, path: "D:/Unity/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              7db5f3b94c5349cb863f3ff4c7c5387b
+  Correlation Id:          36fd5ae3d81390d56cde992ff7cfb321
+  External correlation Id: 1722337135656232640
+  Machine Id:              I9PH9Thx+NSnaOsbEDmNzypGoRo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-leafy-6000.3.15" (connect: 0.01s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy-6000.3.15-notifications" at "2026-05-27T06:36:08.7735994Z"
+[Licensing::Module] Licensing Background thread has ended after 24.25s
+[Licensing::Module] Licensing is initialized (took 10.56s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768080950810-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in 27.020 seconds
+Refreshing native plugins compatible for Editor in 276.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 114.72 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-IGB101_Group12
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.102 seconds
+Domain Reload Profiling: 34118ms
+	BeginReloadAssembly (11051ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (15777ms)
+		LoadAssemblies (13150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2822ms)
+			TypeCache.Refresh (1439ms)
+				TypeCache.ScanAssembly (1352ms)
+			BuildScriptInfoCaches (1366ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (7102ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1688ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (1313ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6885 unused Assets / (12.4 MB). Loaded Objects now: 7614.
+Memory consumption went from 161.5 MB to 149.2 MB.
+Total: 13.825100 ms (FindLiveObjects: 0.995600 ms CreateObjectMapping: 0.435700 ms MarkObjects: 5.377900 ms  DeleteObjects: 7.014000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 353104.074950 seconds.
+  path: Assets/James/Materials & Textures/Black.mat
+  artifactKey: Guid(2ff756c2d68e48143bffe5ee4580d0a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/James/Materials & Textures/Black.mat using Guid(2ff756c2d68e48143bffe5ee4580d0a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17c82ca3885aa6961c260fc671040e8e') in 0.5846516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.594828 seconds.
+  path: Assets/James/Audio/room ambience.mp3
+  artifactKey: Guid(30631d8bc6e4a9847a407184ba5ffeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Audio/room ambience.mp3 using Guid(30631d8bc6e4a9847a407184ba5ffeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '120c53f4c9395174a713887384235a88') in 0.2553636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.015918 seconds.
+  path: Assets/James/Effect/Smoke.psd
+  artifactKey: Guid(0c6fd896219b6f743997d1f6283ab003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Effect/Smoke.psd using Guid(0c6fd896219b6f743997d1f6283ab003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d100eb640fb18cfad75588e1e5b7ac') in 0.1958937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.800117 seconds.
+  path: Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundDiffuse.png
+  artifactKey: Guid(b9ae9b57fab96364ca2ede2c9c2caec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundDiffuse.png using Guid(b9ae9b57fab96364ca2ede2c9c2caec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6aa7909b4446539e8a283fa707be15') in 0.2067548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundSpecular.png
+  artifactKey: Guid(04de7dbbd5b57024295980c21c9bd23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundSpecular.png using Guid(04de7dbbd5b57024295980c21c9bd23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e063c5d32b0a1ae7bcc644874997c4a') in 0.0630449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/James/Materials & Textures/Concrete/Concrete.mat
+  artifactKey: Guid(854f2a097359cad49990d0eb0196d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete/Concrete.mat using Guid(854f2a097359cad49990d0eb0196d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cced1cdf11e39ba0f8465a2b7671dc3') in 1.0136768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.600668 seconds.
+  path: Assets/James/Surreal-Skyboxes/City.mat
+  artifactKey: Guid(fdf1c396e74854f4bad0f385bf8fc478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/City.mat using Guid(fdf1c396e74854f4bad0f385bf8fc478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1044a9b494c14abc3341370f4a6464aa') in 0.2123085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/James/Surreal-Skyboxes/Desert_Sunset.mat
+  artifactKey: Guid(f9f788dd25f46944789bbaa8fcd4bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Desert_Sunset.mat using Guid(f9f788dd25f46944789bbaa8fcd4bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd632e1df85d7f33ad57a72bb68ca15d0') in 3.1697796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/James/Surreal-Skyboxes/Desert.mat
+  artifactKey: Guid(114997b85f82f82498364e99b284f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Desert.mat using Guid(114997b85f82f82498364e99b284f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7833ec054d8d2e2602575924686cceea') in 0.2154887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/James/Surreal-Skyboxes/Forest.mat
+  artifactKey: Guid(57dcf859eadf88a4cabbf001183c43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Forest.mat using Guid(57dcf859eadf88a4cabbf001183c43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47533b98ad5a4670c574bbc800a0449d') in 0.6945653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/James/Surreal-Skyboxes/Artic_Demo.unity
+  artifactKey: Guid(f24c487efb14f8b43b3fd214df0fe8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Artic_Demo.unity using Guid(f24c487efb14f8b43b3fd214df0fe8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2f458ed74fa5eec71e3878ac452317') in 0.0014861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/James/Surreal-Skyboxes/Hills_Art_Sunset.mat
+  artifactKey: Guid(fa754103425f24745b6edaf85127cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Hills_Art_Sunset.mat using Guid(fa754103425f24745b6edaf85127cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aecdc11bbebe08c1f9401df2d812f986') in 0.643591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mushroom_Sunset.mat
+  artifactKey: Guid(bb45174ce8c6c9948a22cda6b40b752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mushroom_Sunset.mat using Guid(bb45174ce8c6c9948a22cda6b40b752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9797cc45f4314d5dbc11075ed3a1f73') in 0.3683849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/city.png
+  artifactKey: Guid(9ad01c4a341749a49a0c35c727309f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/city.png using Guid(9ad01c4a341749a49a0c35c727309f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54ee1903a75b2f57be875c0ae42f1585') in 0.2494673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/James/Surreal-Skyboxes/Cyberspace.mat
+  artifactKey: Guid(90038f618ca22c0429c5c6bd762d33f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Cyberspace.mat using Guid(90038f618ca22c0429c5c6bd762d33f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a898d8801833cb4354ba8ca8294c38c') in 0.3314013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/James/Surreal-Skyboxes/Forest_Night.mat
+  artifactKey: Guid(618acdbd2ce7020418e84730f38af81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Forest_Night.mat using Guid(618acdbd2ce7020418e84730f38af81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa2c4d116e737ed1cb3b6490eb4dafcc') in 0.202457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

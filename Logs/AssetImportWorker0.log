@@ -1,0 +1,633 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16087 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy" at "2026-05-27T06:35:44.5156176Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-27T06:35:44Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/IGB101---A3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63228
+-licensingIpc
+LicenseClient-leafy
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Github/IGB101---A3
+D:/Github/IGB101---A3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [15544]  Target information:
+
+Player connection [15544]  * "[IP] 10.88.39.247 [Port] 0 [Flags] 2 [Guid] 1849079088 [EditorId] 1849079088 [Version] 1048832 [Id] WindowsEditor(7,floolf) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 792.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.15f1 (c1aa84e375f6)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/IGB101---A3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     8043 MB
+    Driver:   32.0.101.6989
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.108766 seconds.
+- Loaded All Assemblies, in  4.793 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 5654ms
+	BeginReloadAssembly (4093ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (4091ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (498ms)
+			TypeCache.Refresh (496ms)
+				TypeCache.ScanAssembly (483ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (517ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-leafy"
+[Licensing::IpcConnector] LicenseClient-leafy channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy-6000.3.15" at "2026-05-27T06:36:08.7080954Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21080, path: "D:/Unity/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              3fe686e7216a4eb68597a510453e2fd9
+  Correlation Id:          36fd5ae3d81390d56cde992ff7cfb321
+  External correlation Id: 1430853298314786649
+  Machine Id:              I9PH9Thx+NSnaOsbEDmNzypGoRo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-leafy-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-leafy-6000.3.15-notifications" at "2026-05-27T06:36:08.7767737Z"
+[Licensing::Module] Licensing Background thread has ended after 24.26s
+[Licensing::Module] Licensing is initialized (took 10.56s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768080950810-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in 27.025 seconds
+Refreshing native plugins compatible for Editor in 279.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 114.72 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-IGB101_Group12
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.103 seconds
+Domain Reload Profiling: 34125ms
+	BeginReloadAssembly (11050ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (15786ms)
+		LoadAssemblies (13150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2825ms)
+			TypeCache.Refresh (1442ms)
+				TypeCache.ScanAssembly (1344ms)
+			BuildScriptInfoCaches (1365ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (7104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (1304ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6885 unused Assets / (11.6 MB). Loaded Objects now: 7614.
+Memory consumption went from 161.6 MB to 150.0 MB.
+Total: 12.864700 ms (FindLiveObjects: 0.704300 ms CreateObjectMapping: 0.573900 ms MarkObjects: 4.755800 ms  DeleteObjects: 6.829000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 353104.074958 seconds.
+  path: Assets/James/Scenes/FinalMuseum.unity
+  artifactKey: Guid(74728903f322a58459e1d38cba46ab49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/James/Scenes/FinalMuseum.unity using Guid(74728903f322a58459e1d38cba46ab49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7c36c2f71038e013727fc2555c82d7c') in 1.472117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.393281 seconds.
+  path: Assets/James/Audio
+  artifactKey: Guid(be890e1d208db8a4289e52d380c91c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Audio using Guid(be890e1d208db8a4289e52d380c91c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4958e65616125692ca8a5a0c19015d0') in 0.0010372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008768 seconds.
+  path: Assets/James/Audio/chime.wav
+  artifactKey: Guid(b270404e41a341c4b8559ea220387c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Audio/chime.wav using Guid(b270404e41a341c4b8559ea220387c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe0296dc774c282b15d75250a7d6ef21') in 0.3800042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/James/Audio/thunder rumble1.wav
+  artifactKey: Guid(18280016865356e458381e920370f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Audio/thunder rumble1.wav using Guid(18280016865356e458381e920370f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41827200141312725de394c00a1a1b60') in 0.041262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.872303 seconds.
+  path: Assets/James/Effect
+  artifactKey: Guid(7a489195d1b6d2e418ac37ba99c05bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Effect using Guid(7a489195d1b6d2e418ac37ba99c05bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db1928d46febfbd51c13ee92bb65fa3') in 0.0013974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/James/Effect/Fireball.psd
+  artifactKey: Guid(05dc1770d982c864cac79c1ebad80968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Effect/Fireball.psd using Guid(05dc1770d982c864cac79c1ebad80968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fdcb923ff1c82f7ea345459f2899007') in 0.2213643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.620962 seconds.
+  path: Assets/James/Materials & Textures/Concrete
+  artifactKey: Guid(02e2f5cb6ecd2de408c7d2d6de54601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete using Guid(02e2f5cb6ecd2de408c7d2d6de54601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '184eff2b2ca35420e3380095d8c5decf') in 0.0230737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.073080 seconds.
+  path: Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundAO.png
+  artifactKey: Guid(8b9afc4ae8ff69e4e82fb2799e21e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundAO.png using Guid(8b9afc4ae8ff69e4e82fb2799e21e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c12748647dcbd169e1f1c0e6d5932a2') in 0.1215656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundNormal.png
+  artifactKey: Guid(67018b0f45100744dab55515ac2729d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Materials & Textures/Concrete/Clean_Concrete_GroundNormal.png using Guid(67018b0f45100744dab55515ac2729d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca455a76590ddcb4a3dafd253ed77f78') in 0.1194075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.800685 seconds.
+  path: Assets/James/Models
+  artifactKey: Guid(1215551ba5e7fea4d8c64e15b5342f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Models using Guid(1215551ba5e7fea4d8c64e15b5342f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8166972b14c108b55a9fcc9c96630471') in 0.0006894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014109 seconds.
+  path: Assets/James/Models/Sphere (3).prefab
+  artifactKey: Guid(3fc6f0acb7da63542ab152c44499850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Models/Sphere (3).prefab using Guid(3fc6f0acb7da63542ab152c44499850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86b7d4246f577a14c42461cba7ff2b27') in 0.7393018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.542228 seconds.
+  path: Assets/James/Player
+  artifactKey: Guid(78c4c625b5042484ba820a8f3a116670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Player using Guid(78c4c625b5042484ba820a8f3a116670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47976de5b0552d8c2451b8d2e78164a5') in 0.0006576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.710740 seconds.
+  path: Assets/James/ProBuilder Data
+  artifactKey: Guid(fd037ece6b5714945b306452e99f5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/ProBuilder Data using Guid(fd037ece6b5714945b306452e99f5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b6d868f08781424d661efca6c7c63b0') in 0.0008208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013458 seconds.
+  path: Assets/James/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(99f7dbf1049e020428c24c21cddf54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/ProBuilder Data/Default Material Palette.asset using Guid(99f7dbf1049e020428c24c21cddf54e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f88f85d99e564e35b004ecf102c52984') in 0.0964864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.247742 seconds.
+  path: Assets/James/Samples
+  artifactKey: Guid(d2a21e4d5f14b67429d1eb2e944b243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Samples using Guid(d2a21e4d5f14b67429d1eb2e944b243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288940c97291e789c3d57a4eabaa4d44') in 0.0012142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.031027 seconds.
+  path: Assets/James/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae1af5c61b2fd4bcacfc65f55f013a75') in 0.0012428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.899886 seconds.
+  path: Assets/James/Surreal-Skyboxes
+  artifactKey: Guid(588263299aec08b40ae4b803fbcbba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes using Guid(588263299aec08b40ae4b803fbcbba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12efb4d636037ef48fed806b58d79175') in 0.0009269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009754 seconds.
+  path: Assets/James/Surreal-Skyboxes/Artic.mat
+  artifactKey: Guid(44aafc914da1f22419757ced62eb246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Artic.mat using Guid(44aafc914da1f22419757ced62eb246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d66dea57b6996bff5d54c5c243db72') in 3.3227748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/James/Surreal-Skyboxes/Forest_Sunset.mat
+  artifactKey: Guid(24dcbd2f5990e9d448841cc9354b082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Forest_Sunset.mat using Guid(24dcbd2f5990e9d448841cc9354b082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f34f9d0274ed4c1784b7eabf279759') in 0.3852271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mushroom.mat
+  artifactKey: Guid(f6865589f775f2a4b968b7de1cdfe3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mushroom.mat using Guid(f6865589f775f2a4b968b7de1cdfe3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a51da0ddb5440c9614e76533b250030') in 0.5452334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mushroom_Night.mat
+  artifactKey: Guid(e6ddc7ed8351a9f4188735561905e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mushroom_Night.mat using Guid(e6ddc7ed8351a9f4188735561905e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c840f6c5c6d42120f24e11d2017b448d') in 0.2963397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mountains.mat
+  artifactKey: Guid(848b200f4dc5d1d449a479cc37c9c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mountains.mat using Guid(848b200f4dc5d1d449a479cc37c9c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aff82a7610ee07882c7ce959410669cf') in 0.4247221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/James/Surreal-Skyboxes/Space.mat
+  artifactKey: Guid(7f6130ccef6198f4394f67c377133ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Space.mat using Guid(7f6130ccef6198f4394f67c377133ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b115dfdccd31fbf8a29cd702423483a') in 0.3191637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mountains_Art.mat
+  artifactKey: Guid(fccbea1ade85a4c4fbadc1211f820160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mountains_Art.mat using Guid(fccbea1ade85a4c4fbadc1211f820160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad7d5c9b4a79a2c5d4a14deb3205a2d') in 0.1348385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mountains_Art_Sunset.mat
+  artifactKey: Guid(b06e7967d72794b498df6b9e1173471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mountains_Art_Sunset.mat using Guid(b06e7967d72794b498df6b9e1173471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24a300e7a6fbbff03a48749b917c6053') in 0.2503247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/James/Surreal-Skyboxes/Hills_Art.mat
+  artifactKey: Guid(83b26219807ab2b478cf6d7f1cd5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Hills_Art.mat using Guid(83b26219807ab2b478cf6d7f1cd5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0803a4a4aa563daf363eee4807a7e577') in 0.1745094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/James/Surreal-Skyboxes/Snow_Village.mat
+  artifactKey: Guid(62ea576d8909c444587b99989e777c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Snow_Village.mat using Guid(62ea576d8909c444587b99989e777c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fc5bf7649c65adcc6fe305ea5998517') in 0.3487809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.141458 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/forest_night.png
+  artifactKey: Guid(86faf1774eac1ac4183816869545fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/forest_night.png using Guid(86faf1774eac1ac4183816869545fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da21f06b2f18abb090d431f94125c59e') in 0.2033297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.668752 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/cyberspace.png
+  artifactKey: Guid(ac3a3cc18aaef7246b000eecef99be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/cyberspace.png using Guid(ac3a3cc18aaef7246b000eecef99be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '825c6195b6790b46052c46cee271d523') in 0.2399577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/desert_sunset.png
+  artifactKey: Guid(c1c9db27f4b3b0d4eb364297498639bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/desert_sunset.png using Guid(c1c9db27f4b3b0d4eb364297498639bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff9c629541261a2a055d9f1045ddc32') in 0.1512238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/mushrooms.png
+  artifactKey: Guid(de4b7f40585a09e43b1b953ceb14cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/mushrooms.png using Guid(de4b7f40585a09e43b1b953ceb14cc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9698d7cfdb74080abaa623cca6e1903e') in 0.5264379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/mushrooms_sunset.png
+  artifactKey: Guid(d6f11a8c690fc134ba6a992b6802d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/mushrooms_sunset.png using Guid(d6f11a8c690fc134ba6a992b6802d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57247e03c2ba7ec4e54946b072fcc6ad') in 0.1651407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/underwater.png
+  artifactKey: Guid(bef5db2401f6b8841bcc0e88de77e788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/underwater.png using Guid(bef5db2401f6b8841bcc0e88de77e788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f65357b9851502683613edfd3abf983') in 0.1609439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/space.png
+  artifactKey: Guid(6670c56d85b79af4fa6c8885bacbfecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/space.png using Guid(6670c56d85b79af4fa6c8885bacbfecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8727b30d0f5c699564c7d7d188aa276d') in 0.1810243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/mountains_art_sunset.png
+  artifactKey: Guid(4e16dc6cac65ab64baf8332d4def7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/mountains_art_sunset.png using Guid(4e16dc6cac65ab64baf8332d4def7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3049f177273cfaf73b04ef1b56ed367') in 0.0643376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/storm.png
+  artifactKey: Guid(7e2dd837d9de7254d9131dca931982e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/storm.png using Guid(7e2dd837d9de7254d9131dca931982e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4138425f3f5e5374a57c19a542e19674') in 0.23712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/James/Surreal-Skyboxes/Textures/forest.png
+  artifactKey: Guid(aea3e038520e9414b91c76459155a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Textures/forest.png using Guid(aea3e038520e9414b91c76459155a852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e184a887dae113de26b627db9c1f5c2') in 0.2504132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.623353 seconds.
+  path: Assets/James/Surreal-Skyboxes/City.mat
+  artifactKey: Guid(fdf1c396e74854f4bad0f385bf8fc478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/City.mat using Guid(fdf1c396e74854f4bad0f385bf8fc478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecbf1faa49dedc0815bd3c1ca15c5f15') in 0.5233009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/James/Surreal-Skyboxes/Desert_Sunset.mat
+  artifactKey: Guid(f9f788dd25f46944789bbaa8fcd4bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Desert_Sunset.mat using Guid(f9f788dd25f46944789bbaa8fcd4bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '574dc142cd7355caa070fbad91f4a38b') in 0.312431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/James/Surreal-Skyboxes/Forest_Sunset.mat
+  artifactKey: Guid(24dcbd2f5990e9d448841cc9354b082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Forest_Sunset.mat using Guid(24dcbd2f5990e9d448841cc9354b082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff7e97940b82c442b43789abadf7986e') in 0.1940708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/James/Surreal-Skyboxes/Desert.mat
+  artifactKey: Guid(114997b85f82f82498364e99b284f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Desert.mat using Guid(114997b85f82f82498364e99b284f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b2df2cc6e1d4c598259a9e2eedfb327') in 0.0745953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/James/Surreal-Skyboxes/Forest.mat
+  artifactKey: Guid(57dcf859eadf88a4cabbf001183c43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Forest.mat using Guid(57dcf859eadf88a4cabbf001183c43a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc8703f3063b8dba6ed266c67c657486') in 0.1980031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mushroom.mat
+  artifactKey: Guid(f6865589f775f2a4b968b7de1cdfe3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mushroom.mat using Guid(f6865589f775f2a4b968b7de1cdfe3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1603ae3acd763cc458701dbd268add4') in 0.0633409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/James/Surreal-Skyboxes/Hills_Art_Sunset.mat
+  artifactKey: Guid(fa754103425f24745b6edaf85127cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Hills_Art_Sunset.mat using Guid(fa754103425f24745b6edaf85127cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5459e93c7eb2147154b04e2d6f49526c') in 0.0416913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mountains.mat
+  artifactKey: Guid(848b200f4dc5d1d449a479cc37c9c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mountains.mat using Guid(848b200f4dc5d1d449a479cc37c9c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf028eb1de1d41ea4181791cac6265d3') in 0.0452059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mountains_Art_Sunset.mat
+  artifactKey: Guid(b06e7967d72794b498df6b9e1173471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mountains_Art_Sunset.mat using Guid(b06e7967d72794b498df6b9e1173471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0655871e91de9c3d68f03843f21d098e') in 0.0539954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/James/Surreal-Skyboxes/Hills_Art.mat
+  artifactKey: Guid(83b26219807ab2b478cf6d7f1cd5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Hills_Art.mat using Guid(83b26219807ab2b478cf6d7f1cd5ff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8416f58e6d9d3e2dc572544be701b099') in 0.0160664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.101845 seconds.
+  path: Assets/James/Surreal-Skyboxes/Mushroom_Sunset.mat
+  artifactKey: Guid(bb45174ce8c6c9948a22cda6b40b752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Mushroom_Sunset.mat using Guid(bb45174ce8c6c9948a22cda6b40b752c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae0af0c66fff1817fbd2ebda2a945ee1') in 0.1347366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/James/Surreal-Skyboxes/Snow_Village.mat
+  artifactKey: Guid(62ea576d8909c444587b99989e777c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Snow_Village.mat using Guid(62ea576d8909c444587b99989e777c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af8e349a460e4e6fdfe31dadc131f618') in 0.137108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.762690 seconds.
+  path: Assets/James/Surreal-Skyboxes/Underwater.mat
+  artifactKey: Guid(e4b014022a99bc941b5594a6907bc2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/James/Surreal-Skyboxes/Underwater.mat using Guid(e4b014022a99bc941b5594a6907bc2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd9e1092ec1fe261d9238cd38502746c') in 0.038974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
