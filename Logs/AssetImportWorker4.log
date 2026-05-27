@@ -1,0 +1,1165 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.8f1 (f8b72d3d7343) revision 16299821'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 63144 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-adham" at "2026-05-27T08:15:51.3374574Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-27T08:15:51Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/adham/OneDrive/Documents/GitHub/IGB101---A3
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57483
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/adham/OneDrive/Documents/GitHub/IGB101---A3
+C:/Users/adham/OneDrive/Documents/GitHub/IGB101---A3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30372]  Target information:
+
+Player connection [30372]  * "[IP] 192.168.0.53 [Port] 0 [Flags] 2 [Guid] 2745533032 [EditorId] 2745533032 [Version] 1048832 [Id] WindowsEditor(7,MikuPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30372]  * "[IP] 172.23.252.4 [Port] 0 [Flags] 2 [Guid] 2745533032 [EditorId] 2745533032 [Version] 1048832 [Id] WindowsEditor(7,MikuPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30372]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2745533032 [EditorId] 2745533032 [Version] 1048832 [Id] WindowsEditor(7,MikuPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adham/OneDrive/Documents/GitHub/IGB101---A3/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 9070 XT (ID=0x7550)
+    Vendor:          ATI
+    VRAM:            16188 MB
+    App VRAM Budget: 15416 MB
+    Driver:          32.0.31007.5012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001242 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-adham"
+[Licensing::IpcConnector] LicenseClient-adham channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-adham-6000.4.8" at "2026-05-27T08:15:52.0157819Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7964, path: "C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              662a475d9dfc42618f05a7b419d120cf
+  Correlation Id:          57f2d454635c2bb86d3ee301b34a3621
+  External correlation Id: 4838023809337842869
+  Machine Id:              9OD+NHeWHPphwtgmG5Bnh+UYs3A=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-adham-6000.4.8" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-adham-6000.4.8-notifications" at "2026-05-27T08:15:52.0205373Z"
+[Licensing::Module] Licensing Background thread has ended after 0.68s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 542ms
+	BeginReloadAssembly (83ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (111ms)
+	FinalizeReload (256ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16768332604297-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp.dll at Library/ScriptAssemblies/Assembly-CSharp.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (118ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (235ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (516ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6956 unused Assets / (6.1 MB). Loaded Objects now: 7799.
+Memory consumption went from 167.0 MB to 160.9 MB.
+Total: 6.363200 ms (FindLiveObjects: 0.680100 ms CreateObjectMapping: 0.176600 ms MarkObjects: 3.504400 ms  DeleteObjects: 2.000400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19526.569697 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Concrete tiled/Clean_Concrete_GroundDiffuse.png
+  importAddress: Guid(229c92b19c3ac01408b6d7a486a9187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Concrete tiled/Clean_Concrete_GroundDiffuse.png using Guid(229c92b19c3ac01408b6d7a486a9187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '50bea0a5aa8b6bf6c1ae93a01b6cb099') in 0.0488814 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9fa00cbf989d31d0d4fee29ef0677e3 DependenciesID=b925a97cb586c3f56e085f9ad64019ce StaticDependenciesID=d5b1b544d50d2e1f9ea8b73eb3df5e1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149632 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Concrete tiled/Clean_Concrete_GroundNormal.png
+  importAddress: Guid(62c3bcaeb6a9dca49bc5d3f0e7fadfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Concrete tiled/Clean_Concrete_GroundNormal.png using Guid(62c3bcaeb6a9dca49bc5d3f0e7fadfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4464fcf9131ac74c90d8f10dd756e764') in 0.0176168 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=499e4231f020e2c0e6e9f760b7f6aad2 DependenciesID=10309aa7915827aa61889306bceacdee StaticDependenciesID=aee09f9c1c45466090c90d4d2986174b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Adham White (n12684511)/Customizable Lights and Candles/Textures/cloth_alb.png
+  importAddress: Guid(406c8738a596a3c4492fea8212409fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Customizable Lights and Candles/Textures/cloth_alb.png using Guid(406c8738a596a3c4492fea8212409fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9dc3a6e2a1e57aa6ae1d0703aa566c9f') in 0.0127403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e664ff3b5164d49b69eab18f1f426232 DependenciesID=c35a93562ee9f704016b52b512d2b630 StaticDependenciesID=d30f125688be9a9760c373a8d3856abb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Marble/2K/Coat of Arms edit.png
+  importAddress: Guid(256aee8d53efbd943b5635a70f0f18b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Marble/2K/Coat of Arms edit.png using Guid(256aee8d53efbd943b5635a70f0f18b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fd36ac2b9fcf4488661849107b8f467e') in 0.0127326 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7694e133fbdd028a376f0c0af9cf397b DependenciesID=75bd767a3625a96dac8679983677ba92 StaticDependenciesID=f1a758649a2cc8d8cad008528a2a056f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213301 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.png
+  importAddress: Guid(853428089451e744cb46c7d275ad0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.png using Guid(853428089451e744cb46c7d275ad0639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd6c7fa3b453b57c8d10203525d77dfe8') in 0.0097922 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9e4a6a742d2d9a0360fc6926495fdfb DependenciesID=1e33056902380fe0f7d1f08a3124dbcc StaticDependenciesID=f67104b5c9a637d01224aaeebb59155e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.png
+  importAddress: Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.png using Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8b6d97480ebdfddc37f481dbc4eb3a79') in 0.0090268 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe12f00068bc588823611499ff66e298 DependenciesID=58e956e46deda4d7e96bbbc9aa5779fb StaticDependenciesID=e14b66f184e68cb8d3794dec6e5b2bc9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.png
+  importAddress: Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.png using Guid(e7be35ddf1e796d479fef702b9d323e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5805ebaad3c08609ae7f62cb51166bd8') in 0.0093177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b99ee6691c3623077b325a5fbf626c6 DependenciesID=31f9909b91b1361ac72cfd87c385d4e0 StaticDependenciesID=61963493a90ccf8d360c6c62bf93b5e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236451 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Marble/2K/Deadlocklogo.png
+  importAddress: Guid(a678530aba6086945840c6ed8d53039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Marble/2K/Deadlocklogo.png using Guid(a678530aba6086945840c6ed8d53039e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '947b8dd6f5c3fc0642d023cc115ee14a') in 0.0110291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ef5564d82606c457f784562567bf424 DependenciesID=e1505f6a79b4447f5edab4a00ce2c9c7 StaticDependenciesID=4951c1e4fe83ee0cb5a8978dec7f8fdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png
+  importAddress: Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.png using Guid(adc4b68cc31d85c408cff305b2b6b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3931362a29f7f24b78081b4f55a01a17') in 0.0086264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e16dc6706297806c7f55d449b8213035 DependenciesID=b2fb6bb53626d15d5c672c0727793ffc StaticDependenciesID=9aec91728446c7feff0b88b7f0f6b716 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.png
+  importAddress: Guid(16db49039a16de24896fd3f0a23ea5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.png using Guid(16db49039a16de24896fd3f0a23ea5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '31e9244d82882fe4c452053ad7a99fae') in 0.0095711 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e29c3a70062fc014b00161dfae3175d4 DependenciesID=bff18559e97e4b5357575c91efa8807a StaticDependenciesID=b6a07d6d8fa514beb811233bea50c6b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165657 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_AO.tga
+  importAddress: Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_AO.tga using Guid(3397a63d90d6d634cb7bdc3749002f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b2fa2b5e6e3642a6bde3c49483c7963') in 0.0104506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fefc9e471b3e905c18231e424821b61c DependenciesID=61fdba5513ef83c7199b17b7b3a39527 StaticDependenciesID=6597f8410930124c4316baa8006c9b5a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Spec.tga
+  importAddress: Guid(5484aa2081f79b74489170c904cb880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_11/Door_11_Spec.tga using Guid(5484aa2081f79b74489170c904cb880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f2d8b4b8eac6a0bb3bbd3d787074dc95') in 0.0117161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7754fcb04b490bd3892a196aead5996 DependenciesID=58e3c942db1b8247a1aadbcbc4af1e19 StaticDependenciesID=0db2782b0997c62bee0cca054960f11b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/FancyStone-01-lt-p.png
+  importAddress: Guid(69dcd99edd91b5f4fb30149138a2aac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/FancyStone-01-lt-p.png using Guid(69dcd99edd91b5f4fb30149138a2aac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fc4f763eb41b7d35e49cc03a7e4aceb4') in 0.0100257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66fe58b5052c2a8a4bf29071d973ebbe DependenciesID=5de8178d5e59c9112e138177e7dd6a7a StaticDependenciesID=5d2e496a3662023ebb8284f2632f222c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142165 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fireball.psd
+  importAddress: Guid(779a7776bba4ac94b8db9d8f0adfcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fireball.psd using Guid(779a7776bba4ac94b8db9d8f0adfcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e1cdb0e4c5160ef8b3e41d1063c82116') in 0.0062468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a4cb7822089192bb58312e239f2b602 DependenciesID=e7fab41207db51e20cbf85ddfedb99a9 StaticDependenciesID=ad1a6e8e31b764739b340e077313b45e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.png
+  importAddress: Guid(890066c6fee80104a8e1dd4cbffdb746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.png using Guid(890066c6fee80104a8e1dd4cbffdb746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '83550d4276e428490683b02dca132707') in 0.0088531 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4c84feb73121d5accd30179c6457da4 DependenciesID=98b8cbd6a82b9b2efb23246d612b6b7f StaticDependenciesID=3bc35d345688d8bbd96b5973fb359d22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.png
+  importAddress: Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.png using Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e8892bf277b14452dce9de3a952ebee3') in 0.0091994 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f921a074bcce6e8a4ea1b01a36291a8 DependenciesID=46611f3e2b19ee25f82c69d4524c211b StaticDependenciesID=6d5c1439ca9cddeceb572904ec74785b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178624 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Floor/Floor_HumanoidGiant01-BaseColor.png
+  importAddress: Guid(f9825abeb4abb69448f90aacdff0e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Floor/Floor_HumanoidGiant01-BaseColor.png using Guid(f9825abeb4abb69448f90aacdff0e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5fa6323763bce2c1dfb2080074f9bd35') in 0.0120461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e213121c7a1b5794836075019e97ff0 DependenciesID=6d55ab95f2ee9113a374448e6cc75677 StaticDependenciesID=93f90c2c2c9509de678b1ca6dd1c0732 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005789 seconds.
+  path: Assets/Adham White (n12684511)/TextMesh Pro/Fonts/LiberationSans.ttf
+  importAddress: Guid(2905f97255b9f294f88dbd17fb965543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(2905f97255b9f294f88dbd17fb965543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b368d22d2b16cbb95dd1cfe7ffdc9123') in 0.3089257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fffe497134c5fffd82f011d331668cb DependenciesID=d0767cd5c90694278417d56ea1505640 StaticDependenciesID=74615154be4c92a0b01e2512aae3699b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.png
+  importAddress: Guid(915b4750cbaea8c44a4a9cae72f73d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.png using Guid(915b4750cbaea8c44a4a9cae72f73d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bcdd8b7412766ffd5e88db869218d8ec') in 0.0333457 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74b6733929b0750f7bb212bcb0f5c9b1 DependenciesID=d24a1aecd3168965237dd9e11583d816 StaticDependenciesID=d95715b0808ce864fe93505246afe45c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081778 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.png
+  importAddress: Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.png using Guid(599e20092e3297247ad7ecc4ba9caf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1b342909ed4e01dfc9d52370ba7d2286') in 0.0140677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce223a6d53df6d4eca8cebc49ef80fc0 DependenciesID=5da2cc0cdbbd7c42d0697ecc8ee008d4 StaticDependenciesID=48e6a716dcd82f1058b9a5d20ce810b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png
+  importAddress: Guid(e195d418edfcba84d8c240bde7d4c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png using Guid(e195d418edfcba84d8c240bde7d4c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fa8f40cf1ef356e6d8b4f20dc119a25a') in 0.0133154 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4ed7a088ca3a8db3a5c92e50f27f0d9 DependenciesID=796b8e43372bad11e60c669e7ae5af8a StaticDependenciesID=0acce2e2fefffd86ec0d924e92b29ad0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png
+  importAddress: Guid(bcdb4e00f0d7b314d850a0c4a050aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png using Guid(bcdb4e00f0d7b314d850a0c4a050aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5d815de323fdb977e0aa3571c99d99ef') in 0.0136601 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c20ec472303136916c27814caf76a11d DependenciesID=3bbfa51a327fb4af56d38caccbd7b8f8 StaticDependenciesID=a2d4c2003e4a6a1991d06e6852ceac2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129360 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png
+  importAddress: Guid(de60889ae92f5054ead02d1afb23de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png using Guid(de60889ae92f5054ead02d1afb23de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b1b10ef52f01ecd82e9f9e574723890') in 0.0135769 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7441c960401cb67fccd564b88861703 DependenciesID=a65f942ee19f58af8f6345e1c9c6a753 StaticDependenciesID=5d0b9fd29ffb0bf582a22d652f31768d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png
+  importAddress: Guid(02e58ea6769aad64585dfb02ce7b0c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png using Guid(02e58ea6769aad64585dfb02ce7b0c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '574ac04ea059fef2976fb9586b123064') in 0.0139367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1e925bb78b017843a4710d3150647fd DependenciesID=9d6b5980ec0778cbff2e7cad38c0dc6b StaticDependenciesID=90dd48a2a417a5e4b273caa63b5b5d4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png
+  importAddress: Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.png using Guid(ac8a32e5107b67a47939926c52798a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a92364dee9c327b66890c1c5e0a31168') in 0.0136105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02135e1138e651f5b88b9181067d02a8 DependenciesID=2104187bd219f4c62fad6d080d1212ee StaticDependenciesID=e195753d5c48cf38e5d184de469ebeb3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120245 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
+  importAddress: Guid(81ef5264f259017418d53c13530342fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png using Guid(81ef5264f259017418d53c13530342fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae9fbc2f7f6145debaa0b6e8743a773e') in 0.0138426 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=939531035956f0d1f40fab2694eb9424 DependenciesID=7e83974c24ac952703ac472bcfe6b7fc StaticDependenciesID=515af3f408fd2e58301d325bbd7ae525 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png
+  importAddress: Guid(f9ba1b5eafdea9c43a4a4db7e95bacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png using Guid(f9ba1b5eafdea9c43a4a4db7e95bacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '843064c714995a37ef983b1faad5e720') in 0.0133227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f12842c27681b92949abd83f6712a03c DependenciesID=494c0cf5b7178e24eb49138076747288 StaticDependenciesID=4488f4e8149b973766b81f6566c27024 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png
+  importAddress: Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png using Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '87304b3e4733501316e192bae479253f') in 0.0104777 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf37aced6da2fff2dca4772b21c8bf7b DependenciesID=7313708a8eb213b1dc3e0de1bf264224 StaticDependenciesID=3e385acf1083e28444412e3ed8f607d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134882 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png
+  importAddress: Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.png using Guid(13ec4f589b2340646969832fc2e68ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '703f154d55a485b5de44ce097b543357') in 0.0109596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28e848ad770a16e4444400e244731d4b DependenciesID=ad58e243b72a3d0a16615d637936a8d0 StaticDependenciesID=d108b834fac8ea7254fbb34bac555387 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png
+  importAddress: Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunrise.png using Guid(7deb3454b299fae498f2365d40aee326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b8eeb877ba1e6f38888df6329477729') in 0.0105097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67a24f127c68ad1594d21560e3bc86ec DependenciesID=1676b50d6127ac0a937d0882dfd54066 StaticDependenciesID=dd414809ae3fca715824be5f768d68a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png
+  importAddress: Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day_Sunless.png using Guid(99b254ad4e7668d419be526ebb66b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a3b28e3c9e658f1ca753ec822f635844') in 0.0098981 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e44dfd11d4477d91d2ec285064e56df DependenciesID=f99fb84be30d228dfe474b8d68e4e705 StaticDependenciesID=816c7d22b0c502c4adcbb19111eb6e06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122831 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png
+  importAddress: Guid(6185794ad33085a4a9f8446781cb8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png using Guid(6185794ad33085a4a9f8446781cb8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bf6dce40503a88d95d976f18c6216ebe') in 0.0117149 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a77a103a79764017cf4836aed45ade9c DependenciesID=03ac79df5a9ded1fc8b89493d32c5b65 StaticDependenciesID=64ed5a773c89246ee388e55fab48587a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png
+  importAddress: Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png using Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd9faa26a16a1fbcd4b4359fec003a189') in 0.0100424 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=882f5a8432a1789ed02613aa7521a8f1 DependenciesID=2bf70c97374227ab17a4e43d266d0543 StaticDependenciesID=b5e7e710a9fd4afb10e82dd3d3124c55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png
+  importAddress: Guid(20f8339484595a64b81579493040f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png using Guid(20f8339484595a64b81579493040f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b2efbdea6188e5aac62797d1823a6920') in 0.0102085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3afc6b6a69651ab4913ba9cfd7482eb6 DependenciesID=218a859379e4c0192456acaa773d99f8 StaticDependenciesID=030113e2dc3083d1de48836d956ebb54 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228437 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.png
+  importAddress: Guid(cd6e32b2b89313e4ba54e7fc07ea31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS013/FS013_Snowy.png using Guid(cd6e32b2b89313e4ba54e7fc07ea31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9964040b93ed15568ae3c62f15e0b796') in 0.0105379 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0507c4bde3388b9af6027491fe3ff446 DependenciesID=522dd7368d0c55830d2cd9ae6b9e74a8 StaticDependenciesID=e7abfda091771b35d325a4803e65605d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png
+  importAddress: Guid(268c93021d7cf59469304bd4e244f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png using Guid(268c93021d7cf59469304bd4e244f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7e1f40e338a89d6aba0be532f6ed5de9') in 0.0106009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2c5481e7c0b73471fc7e20da802b83e DependenciesID=d5d6ca551e52d03f5caac89565dc8276 StaticDependenciesID=a7eab031198fb0f085aa48a241c61043 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png
+  importAddress: Guid(16d9adf6c3330a04791bfc80481167c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png using Guid(16d9adf6c3330a04791bfc80481167c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5b6e87759991f7e58bf5e66810ec5cfd') in 0.0099266 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d8309b4fce1ae29b2971ece4069afb2 DependenciesID=3a00fd7f9c7d330066e54e914ed2374a StaticDependenciesID=d94d3e4a305ccd0aaac7f812d3537b69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140212 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png
+  importAddress: Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png using Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7655158dc2731690a99c66f4d528d30b') in 0.0108254 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7890e9adfdcd2ca9638b193c91ab8ea DependenciesID=61409ff37814e31ee63777345ea2c15a StaticDependenciesID=05a7c3207e55df16dca3071b0c7133cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01_Flat/Giant01-Texture01_Flat.png
+  importAddress: Guid(7973fbf19c96f97499a5724755a76cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01_Flat/Giant01-Texture01_Flat.png using Guid(7973fbf19c96f97499a5724755a76cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4d3b6d7753de919a176ec3dfbaf55e84') in 0.0080468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8aa8021ff054c638f45da7b7b1606774 DependenciesID=6beb3f9ca94206ccec2b72744488bf17 StaticDependenciesID=24c0d7ee13720637aa83212c2aeaa59a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Giant01_Texture01-BaseColor.png
+  importAddress: Guid(83152ffb76ff0474182a36e65c69c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Giant01_Texture01-BaseColor.png using Guid(83152ffb76ff0474182a36e65c69c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5a505e7c99e9193bcc4e635d0a889baf') in 0.0108019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e0fb566659b899c8ed435934a1d297c DependenciesID=4ba3c6a7f04e5cd9b98c84cad5fac541 StaticDependenciesID=cd5becadaa787c1fcffaced995b4883d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121240 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-EditableColor.psd
+  importAddress: Guid(b292b6441ef54fb49a9331f4aaad755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-EditableColor.psd using Guid(b292b6441ef54fb49a9331f4aaad755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '25908e15694e8636fc4f6c449c5bdaea') in 0.0122214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7088bc9405f766f694804d2eebb559a DependenciesID=f4dc6ae0fc048f530878549edac6c9ed StaticDependenciesID=38bed6f671488352a719090679447eef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-Recolor01.png
+  importAddress: Guid(1c037e0e44f62b845829e57b9aba91ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture01/Recolor/Giant01_Texture01-Recolor01.png using Guid(1c037e0e44f62b845829e57b9aba91ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '19b325f0d00f792906373885e12cb043') in 0.0128781 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9e2d076e918a3d8b3f985eac9c34761 DependenciesID=682c885a374291f44bc402eb83d1f282 StaticDependenciesID=e731c03c5374f583cbd70a15a84d86e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Giant01_Texture02-AmbientOcclusion.png
+  importAddress: Guid(99c7292a74ad80c459e3fac7d8c00fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Giant01_Texture02-AmbientOcclusion.png using Guid(99c7292a74ad80c459e3fac7d8c00fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '84d2f677d978cbcc2e58853e42a698cf') in 0.0107349 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc373071a0589d34d087fe5439089f05 DependenciesID=4b95657f9cde06653c154132f0b2f979 StaticDependenciesID=c024bf4cb61b1f20a74d7d4f5669da6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119305 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Giant01_Texture02-BaseColor.png
+  importAddress: Guid(247488cc21dbfc1419636177f430b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Giant01_Texture02-BaseColor.png using Guid(247488cc21dbfc1419636177f430b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '427856e650e72c3f2a1c2c45c67b2432') in 0.0118737 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78b288edbb5ce3c68bea8140e9acb2f1 DependenciesID=88f4f6c6730b8eca687dcb2e59e5bcf1 StaticDependenciesID=8d66c35f821725434223005c2cc6c739 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor01.png
+  importAddress: Guid(0b306c87654fe414b847890c0dcf28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor01.png using Guid(0b306c87654fe414b847890c0dcf28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '58ebb98bc3a97165f4ff1cc11a9a6f6c') in 0.0120328 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=246f16bc8a3369e2537984253b79c3eb DependenciesID=03b2c1588311a3c1e9549371607f0528 StaticDependenciesID=48daa23400eaa497de9f2113eead1a02 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor03.png
+  importAddress: Guid(c7f536bea1d5acd4284f204223fa94dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Textures/Giant01/Texture02/Recolor/Giant01_Texture02-Recolor03.png using Guid(c7f536bea1d5acd4284f204223fa94dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f2a29187e22327cc660bf2be897033e4') in 0.0109176 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db386dcc9575b69609fbb9a476bdb1b1 DependenciesID=21b9436b444bc8faa2443603e4c3799e StaticDependenciesID=28cdec8b8d6fc4999700f9b0a1a61003 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Adham White (n12684511)/Customizable Lights and Candles/Textures/glossyMetal_norm.png
+  importAddress: Guid(676194b08706f974d9c01051712e9c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Customizable Lights and Candles/Textures/glossyMetal_norm.png using Guid(676194b08706f974d9c01051712e9c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c22830c1305b2898bc9b2bac08b3102') in 0.0179108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=229e0a4d73fe7823b15e1ded446d2abe DependenciesID=eb209a3c903e8be37121f83ac0f8b46c StaticDependenciesID=c4aac90817756f559f18e8821b5e0bea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103085 seconds.
+  path: Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/grass-painted.png
+  importAddress: Guid(e83fd073bbb64db209a28688b19dbd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/grass-painted.png using Guid(e83fd073bbb64db209a28688b19dbd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '71e7f439865f321ec70155a4ae9ce4c9') in 0.0100636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcfe866a5507b5a5135b0ebf7e98b146 DependenciesID=ed6b42be1d3f0c3b6d870540a688ea7d StaticDependenciesID=0da1deea794a9fd674de304dc9c7d1f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass02.tga
+  importAddress: Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Foliage/Textures/GrassFlowers/grass02.tga using Guid(cf3069941001b5c46b1f13d4551d0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16dc68708c2075860c7fafdd6d3eaee5') in 0.0109468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53dd9de2929111340f58233cc96c2463 DependenciesID=e010f20a1eecd934edd9c38f29e35e6e StaticDependenciesID=5845350b12ed2d5b0a7c369260ceca35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Free Metal Barrel Model Pack/Source/Textures/Ground_Bump.jpg
+  importAddress: Guid(4b356897998bc034f9011563262f9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Free Metal Barrel Model Pack/Source/Textures/Ground_Bump.jpg using Guid(4b356897998bc034f9011563262f9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '463e158b0c52a27549a57f6d043ae6a4') in 0.0105159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb9bad24eb08d12dfbd6e056defc6c93 DependenciesID=c79281d221a08c790a9a507f7362d941 StaticDependenciesID=3d51397d31d46bea7a29397cbddd4d48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Normal.tga
+  importAddress: Guid(0931beb60c162d54690836322d97454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Door/Texture/Door_Knob/Knob_Normal.tga using Guid(0931beb60c162d54690836322d97454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd1aef0c9adbe32c8849668b005e4078b') in 0.0099277 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=319b058eb2baf49d3ec54b5f015cf817 DependenciesID=300a8340235341ccf1b211c030400cb9 StaticDependenciesID=17fac96480fe779e9c4590f85d9689fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120356 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Materials and Textures/Layer 1.png
+  importAddress: Guid(6a69ccda1b02167448067249d7e0770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Materials and Textures/Layer 1.png using Guid(6a69ccda1b02167448067249d7e0770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e3286219ea873110cb5b7e6edce7ad87') in 0.0128159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f233b7d1770f1b5be16f846ac9b111d DependenciesID=4e8b5b86994d9089a8dd0a5666ad8f14 StaticDependenciesID=7c976e8b65e6e74cf7d299e4b6cfe1d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF.asset
+  importAddress: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Text/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '42315d34313c5c94e7474bcf06bfd889') in 0.047112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a1801174d539b11d09bb80c1b8f97b0 DependenciesID=88ed1c1cc0df5f461b8761740464d02f StaticDependenciesID=a02cb639cf6fec60123c373e8581623d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png
+  importAddress: Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png using Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '631ae63a1845e64510b7e734f0e66289') in 0.0107421 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e71fa3bc8e350616e2ee0ce4e2fadec8 DependenciesID=fdf83ec865f34512d9eed7dd1805b42f StaticDependenciesID=fd790c82b34e9bbed1370ee06eb0450c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099881 seconds.
+  path: Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/demo/Lightmap-0_comp_light.exr
+  importAddress: Guid(7ef0d8e8c4101264aa7fe928aaf301a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/demo/Lightmap-0_comp_light.exr using Guid(7ef0d8e8c4101264aa7fe928aaf301a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06e7f0d6352b110ddbdd0b6ecb65c5a2') in 0.0253482 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45fa7bdac203d5e702e82c9969650adf DependenciesID=1b588ae4ca69b1080a07a0b2884e687d StaticDependenciesID=5c0f03046c31b3570984d9c2a190aa12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/showroom/Lightmap-1_comp_light.exr
+  importAddress: Guid(a5edceb125e5a364ca442bde80da15e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/showroom/Lightmap-1_comp_light.exr using Guid(a5edceb125e5a364ca442bde80da15e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '28d99d74eeea4120f3333d48d31dd7cd') in 0.0116453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=367d8908651f4d79ea57ab11a0d00f45 DependenciesID=2570ff5695b8cbc95d8aec9527a2b669 StaticDependenciesID=3cfc71a9d2d4d4d7c18ff4ea9c1feae3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/MinusArrow.png
+  importAddress: Guid(d6f9bfed83fc8412c878feb6204acf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/MinusArrow.png using Guid(d6f9bfed83fc8412c878feb6204acf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6f2a3a407efd36543d35662b8fb70fc1') in 0.0095487 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09a62d56349c28e46ff88615177eb4c5 DependenciesID=dcb861a4fee682d70c9a885e9a647716 StaticDependenciesID=14d2548e66b8f6d54f1e4223efd013af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_Normal.png
+  importAddress: Guid(b78c7b5282bdb4d4f86d20a10f43158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Extra Displays/Book/Magic Book Model_standardSurface1_Normal.png using Guid(b78c7b5282bdb4d4f86d20a10f43158a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '23b57f21b8825e24e43c23a44080af37') in 0.0113603 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f65b3e0b9c06ebcd543a5795e8c9d56c DependenciesID=70e9d84bb39daf67413518b5f40e653b StaticDependenciesID=e05e2f79c3ffef1dc986720466345d7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148655 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/MoveArrow.png
+  importAddress: Guid(1851cc976bd974a93abe4a0bde62e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/MoveArrow.png using Guid(1851cc976bd974a93abe4a0bde62e9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f75a1ce2737432995f86088c72a1117') in 0.0092371 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3de7d7a015362d331fadbccd27bb6bce DependenciesID=76871d28c44b2732dfd92d6a9ab3a69d StaticDependenciesID=d1a3831ac3debeccaed15eed5080029e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja Material-mat-_EmissionMap-atlas-6.png
+  importAddress: Guid(5f14f305310b1624080f39ec39d9f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja Material-mat-_EmissionMap-atlas-6.png using Guid(5f14f305310b1624080f39ec39d9f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b7476c2258b7babb10b61a9d0c03eb59') in 0.0087461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4b50a30ecfbfa81f6a33fd252561042 DependenciesID=72679596ea3b3e9d9b9bda948875e540 StaticDependenciesID=01f74f945ff51373d986e9324b41dbda 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Head_A_emissive.png
+  importAddress: Guid(1ea925da0cda9b9449074725727b28e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Head_A_emissive.png using Guid(1ea925da0cda9b9449074725727b28e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2d2f7f3f0891f7dc4e289f5dd22f2b98') in 0.0087912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05362d2e28f427963a8d07035ef38596 DependenciesID=d6c0ac7d79a33d0393b8c58801f92e9a StaticDependenciesID=98f2c1dbef4aaade86430ec0c7f62716 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_ChestA_emissive.png
+  importAddress: Guid(d506c0ad475524d4793b8fd84a1cd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_ChestA_emissive.png using Guid(d506c0ad475524d4793b8fd84a1cd423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '017fa84448155bbd3473db2b5d5509ec') in 0.0052131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10f600421b213aa56571248f7d1b0b02 DependenciesID=b16d741ec2d786388aaf51f90c70c661 StaticDependenciesID=053aa10b89a70be21a9f10668d40218c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198976 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Hip_diffuse.png
+  importAddress: Guid(61a32520f1af86446847adeadb4f213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Hip_diffuse.png using Guid(61a32520f1af86446847adeadb4f213b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae9e9465b6234dc4ca2cc2be615b36a2') in 0.0088964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ecb62c2b797f2ce3f16faeeaf79d3ab3 DependenciesID=9689b96e3083f4b23cec95c62460d5d3 StaticDependenciesID=249effac3c8ee7168212e17907126dec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftFoot_diffuse.png
+  importAddress: Guid(13efdfa6aefa6184db771f6892d01be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftFoot_diffuse.png using Guid(13efdfa6aefa6184db771f6892d01be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '69361afc17f25f49a21bc8c96b71ebe4') in 0.0084019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c15d882e94990544526a427f9be2697 DependenciesID=4045fac75901d99b2d4e7a931b3abe90 StaticDependenciesID=90a6271083c908ec2aca6f17ca7cb0fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftForeArm_diffuse.png
+  importAddress: Guid(56c8c5d4335fd3e449729d182389a22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftForeArm_diffuse.png using Guid(56c8c5d4335fd3e449729d182389a22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a1860cbcb6c1ec2ba1fca96e3f6fa0ee') in 0.0091798 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea2ae2988a06ce84be1628b91ce9904d DependenciesID=186f6f97d9fb545fde1cea95a5fd608c StaticDependenciesID=0c6f0a18455ecb0a14454bf40278dce1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.896675 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftHand_diffuse.png
+  importAddress: Guid(06a0426c3a9735c4f8ac9d981a73cb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftHand_diffuse.png using Guid(06a0426c3a9735c4f8ac9d981a73cb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '831bff5b2f5d84ce0f92106e4376de13') in 0.0101448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b8bdd6d6337cf1b7039b8ee6530ca6d DependenciesID=4c249b61642d459952f0c68dc0524177 StaticDependenciesID=05e1f813ebe9ff422d995255cd4ef4b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftThigh_diffuse.png
+  importAddress: Guid(5d1b5b92416a422429c9eb8da63612c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_LeftThigh_diffuse.png using Guid(5d1b5b92416a422429c9eb8da63612c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ed527078c3b4e1ec0eb4092dceb7b004') in 0.0091355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9190bc3ae195f86117238514ec197dc4 DependenciesID=2a5ad0fc67befc4e5332e1a17cc0850a StaticDependenciesID=3f5ab9eb7f90e4c2c2456fd3f77ad1bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightArm_diffuse.png
+  importAddress: Guid(cdb8d87f36adf82429bb9f20d7fe08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightArm_diffuse.png using Guid(cdb8d87f36adf82429bb9f20d7fe08cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd86b8fc6c95d06f53003f160204acc14') in 0.0094392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e28cbd1daafe0f2625843a6ebb7bfea DependenciesID=3eb6c92944eda18255140eaa753a865c StaticDependenciesID=4fd3667de1d31ba154d2f0fc188298bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207477 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Rightfoot_diffuse.png
+  importAddress: Guid(85ca8bfcbab1311449238ddf6d0c8712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_Rightfoot_diffuse.png using Guid(85ca8bfcbab1311449238ddf6d0c8712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '335052c542a59f29761271b16a1db4a6') in 0.0055505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b710717dd154617794965353f47ff958 DependenciesID=f0e94aff7210fbefd67572d2188db039 StaticDependenciesID=633bc4bb6a82dc2511011c11539fba25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightForeArm_diffuse.png
+  importAddress: Guid(91a12bbf53513c44882d24ac55dafad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightForeArm_diffuse.png using Guid(91a12bbf53513c44882d24ac55dafad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1e0bd592c0f99ec3ff66112ff69d49e5') in 0.0093102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6885a5b4b87e3fc351d4b0fc32746c0 DependenciesID=073123969e6081f801bfd2500f2968e3 StaticDependenciesID=49b0a531b19f5acd7220f007ec735dfe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightLeg_diffuse.png
+  importAddress: Guid(b08ebbea4eb32824a8e2db43534df3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightLeg_diffuse.png using Guid(b08ebbea4eb32824a8e2db43534df3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06652a3a44a3d93271c46c5c7b8fa14e') in 0.0051359 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd3351373af5fc682fde8e62ade2d046 DependenciesID=e7449c219f09fb64ef8259c0434f6b65 StaticDependenciesID=a0856d3e5bb98e07e2425a651a53b700 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240233 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightThigh_diffuse.png
+  importAddress: Guid(fe5b42d0dffe08d4c937fde5e7cb6c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Ninja Character/Models/Textures/Ninja_Idle_RightThigh_diffuse.png using Guid(fe5b42d0dffe08d4c937fde5e7cb6c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5cdbe4bbc0bcba8d45f1c50c36051f9a') in 0.0093378 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4059fddc627b6eae6f3848cb3ba24122 DependenciesID=5a053ac9b0069950771249d76e20514c StaticDependenciesID=ba67231d6d12f18539443768711c35ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/NoiseNormal.png
+  importAddress: Guid(ed9013d39a44e5f4a96633ec80bfbfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/NoiseNormal.png using Guid(ed9013d39a44e5f4a96633ec80bfbfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '465c7e5b356e78ba11ba4f6351359cbe') in 0.0113906 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0d3b0db9f62213ef6c1d80c5f356d25 DependenciesID=e6c7dd42fd95cee296fffe93291f0d00 StaticDependenciesID=6d3408eef16122fbfd2df91aa069ea9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_Ambient_occlusion.png
+  importAddress: Guid(920d775ce4e2a644783241feb5f83c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_Ambient_occlusion.png using Guid(920d775ce4e2a644783241feb5f83c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3875dd4521f04aed8a464cbc1eed8996') in 0.0102134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53eb3750705b819ce035246f53acb3e0 DependenciesID=aabc7c29a66bd47ea098ae42aa03c426 StaticDependenciesID=19ce6bdabd6035f7e324befe12be6283 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128796 seconds.
+  path: Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_Base_Color.png
+  importAddress: Guid(037dc7c73d0d32248800610a05f938e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_Base_Color.png using Guid(037dc7c73d0d32248800610a05f938e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c846c40c4b990fbf0186cafa15a7017e') in 0.0105839 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f41060d5518300a772ef47d532e37cb DependenciesID=e77b87a9243616f3f1d569d1e3edc3b4 StaticDependenciesID=f3ca65f67dca086406e6fe22992cd907 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_MaskMap.png
+  importAddress: Guid(6927612eff27aaa4eb042d5efa39f4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Phoenix3D/Textures/Outdoor_Wall_T16/Outdoor_Wall_T16_MaskMap.png using Guid(6927612eff27aaa4eb042d5efa39f4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e0ba72881a529e28415ca46040f06a6d') in 0.009032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ea047ac5cb1863bd324ec0fc4c31b13 DependenciesID=b0e837621dad0eb4cff483abaf7ff319 StaticDependenciesID=59e0afaa1f5f6cd1b68c6624392bbf26 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/PanView.png
+  importAddress: Guid(d77d6fe8a9d62430ca45bba6b98e1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Runtime Editing/Icons/PanView.png using Guid(d77d6fe8a9d62430ca45bba6b98e1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f37f8b54309fe085a0ffac8ef162aa41') in 0.0096415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3059a82a8483b1a455c1ede0dce41403 DependenciesID=e628fbe1275a46b9bca7175c14ecd4fb StaticDependenciesID=a4aa65e15006f468bdd811e1847d67be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984465 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Marble/2K/Poliigon_StoneQuartzite_8060_AmbientOcclusion.jpg
+  importAddress: Guid(7442c9731686fab41a3d246cc1504b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Marble/2K/Poliigon_StoneQuartzite_8060_AmbientOcclusion.jpg using Guid(7442c9731686fab41a3d246cc1504b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f0a65c4fbe4cc4adc7c5ef24535f5c26') in 0.0117821 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92fe5cf83defc47be143acac038d32c7 DependenciesID=a3588e0a31afd4ec2906b081d302d28a StaticDependenciesID=41b91b1102b069f2e473b73680419380 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Marble/2K/Poliigon_StoneQuartzite_8060_Displacement.tiff
+  importAddress: Guid(0e563a1ef03abaf45b43467dcb9c4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Marble/2K/Poliigon_StoneQuartzite_8060_Displacement.tiff using Guid(0e563a1ef03abaf45b43467dcb9c4636) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '60e034bbfba365df823f02d83bee5b54') in 0.0136858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a424a766e66ff9aa5fcf11cde6be77df DependenciesID=6abc7193b4e17f8d6b13ce69f2610412 StaticDependenciesID=0cfe7e5b86eec2c141faf603893968f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga
+  importAddress: Guid(6bbba49475a28164c9c039f7e0786e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga using Guid(6bbba49475a28164c9c039f7e0786e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ffdba994926dd3e3d8366ce8b3c86970') in 0.011433 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f89825cd5d639db83fe3ed49c4da14a3 DependenciesID=df7b1ff3701ecd259b9d497f188c46bf StaticDependenciesID=9aa1230da79f8f07b8b7b169b49dd8a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/rock texture seamless_specular.png
+  importAddress: Guid(aa0d8b3b0971bf8479d5368f0a407878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/rock texture seamless_specular.png using Guid(aa0d8b3b0971bf8479d5368f0a407878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a6d1f27cffe920b509ad7cf00fdb88e6') in 0.0102428 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80faca39c0b40263423b403091956fee DependenciesID=cea23e96a8f1db43861ed84ee97a2478 StaticDependenciesID=93806b280eb602e366819bd62c55d6cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Rock/RockExample-BaseColor.png
+  importAddress: Guid(3028625622cede640abed79bde31bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Rock/RockExample-BaseColor.png using Guid(3028625622cede640abed79bde31bea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b4633d48320f1cca4bc80181fff1aec') in 0.0105688 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7362b11b07f4390b4fb231dab2cd1f9c DependenciesID=103c129e99ed632d553e299469842b41 StaticDependenciesID=1b77a4bc825eaf824de9db5e1a955e45 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/Sandstone-hr.png
+  importAddress: Guid(de656c222742e8145bf8c7f5e0b99d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Textures/Sandstone-hr.png using Guid(de656c222742e8145bf8c7f5e0b99d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0216abac8d929514647cbb10f9cb44c3') in 0.0103587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91fbd607902354027d42bdb124a932ce DependenciesID=7ccfb73f61951ec85f8d1346bcf94ad2 StaticDependenciesID=7e86154357e4eaac04e0475acbf1059a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit.png
+  importAddress: Guid(79d5c991a86d34345991a3c2a9398b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Exit SIgn/Textures/Sign_Freeway_Exit.png using Guid(79d5c991a86d34345991a3c2a9398b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d0adbe7a1f336baa57fcef6a99026ce') in 0.0246364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f3ab2382b278ce43df8464a92a1dcb5 DependenciesID=f9e518ead8697142f037d1b8613893b9 StaticDependenciesID=26c83ac675c43c6a6f2616622e0bad07 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/ReflectionProbe-0.exr
+  importAddress: Guid(3fe0763a27d4f644b9d49b9a37756022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/ReflectionProbe-0.exr using Guid(3fe0763a27d4f644b9d49b9a37756022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b561054443c5c502265a64d682a9d71b') in 0.0257724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=198f40ad51577d8ed4783fe08d0612d9 DependenciesID=c55baa984f79e351872539397aca74db StaticDependenciesID=bee8b9701e08224701ac78c494ae88b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Natasha Cook (n12407950)/VFX/Candle/Smoke.psd
+  importAddress: Guid(c97c3110c00c4c541b545d3b0650e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/VFX/Candle/Smoke.psd using Guid(c97c3110c00c4c541b545d3b0650e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd65ef1de61f1ed4ff9e6ac3a7c08e932') in 0.010949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=507aee3c1aeb7e1705ccf6c2ce3cc102 DependenciesID=70557ac162abe428f2a7a8673fe2b49c StaticDependenciesID=21df3fdede677e3e4a5061b68d8dcf74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_emission.png
+  importAddress: Guid(263463898181f1a4b805a669d4717e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Natasha Cook (n12407950)/Prefabs/Spotlight/Assets/Materials/Spotlight_emission.png using Guid(263463898181f1a4b805a669d4717e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '607c6216150de70de1f88658cd8fc62f') in 0.0109845 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa128c3081b7befef54a7d68ac1f9f41 DependenciesID=e7ea9d6b10869da7ea041f9ff34602e0 StaticDependenciesID=280721323ae9f04eced67d97e02c939b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/showroom/ReflectionProbe-1.exr
+  importAddress: Guid(b0cd3ad36f4630e46b56638d3de1e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Customizable Lights and Candles/Scene/showroom/ReflectionProbe-1.exr using Guid(b0cd3ad36f4630e46b56638d3de1e08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7df6f7e596629519d6870e196bac23b4') in 0.0133532 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7c73814c54a9fb8f7c0561a2f1cbfe9 DependenciesID=61733cde4344d9cc16d65fe7f4b15a99 StaticDependenciesID=2253628302e908eaa23d5af540cbaea9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Standout7/LOWPO_Goblin_Pack/Texture/T_Goblin.png
+  importAddress: Guid(029ad2b4cb473e645bdd8f1dc63c01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Standout7/LOWPO_Goblin_Pack/Texture/T_Goblin.png using Guid(029ad2b4cb473e645bdd8f1dc63c01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '20c559417a7467aeaff543ae79553c2e') in 0.0101111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0cca5dab10c68aa3008fa8bb3f20221 DependenciesID=38c39bf6a3e6845aa67db5d8d8113af0 StaticDependenciesID=18d8f377ee639a900b45b272a35a661c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Dirt_Diffuse.png
+  importAddress: Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Dirt_Diffuse.png using Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '838ff217d1a8d079c7acda91584037db') in 0.0111466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=500cf4c3bea6edd1cfa8ab3631849b8c DependenciesID=e907037fbe4ca91a80bbbdcc261d1c49 StaticDependenciesID=680cbeef98d0dbccf86c6d33ba87b365 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Terrain)/SampleTerrain.asset
+  importAddress: Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Fantasy Skybox FREE/Scenes/Textures (Terrain)/SampleTerrain.asset using Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06192e84e8c85c1bfaf76bcb4b412df1') in 0.0534045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b68a14d109ce565f908b06d0f268f259 DependenciesID=8ba34206815bee439f279c394855acd4 StaticDependenciesID=1c704c5f9b603820d9a10625c9255bb4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Rock/RockExample-Normal.png
+  importAddress: Guid(270fa619bfff1f349af40a30c438958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Textures/Rock/RockExample-Normal.png using Guid(270fa619bfff1f349af40a30c438958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7091621121bfbe176e3ff3d21e6d51bd') in 0.0108241 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b3490f968a0a4637685bbac78c78a4a DependenciesID=4246b13949d6f04fc565936d301921b3 StaticDependenciesID=33bd4cdaa5cea1fb293a8c1e6eb7c55f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.png
+  importAddress: Guid(27f6e11eec062c242b9812b9aafd7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.png using Guid(27f6e11eec062c242b9812b9aafd7443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'edfbf94ecdee7b27e564ebfc653015a8') in 0.0084911 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0085dc219e3019c7fe77b0c32464553 DependenciesID=8812197843223229f9293a971e088a3d StaticDependenciesID=e8e70b56e4717e01421d86800fb2ade7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-11.png
+  importAddress: Guid(a93277b1437c8ee4e8cf38e1e3ca480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-11.png using Guid(a93277b1437c8ee4e8cf38e1e3ca480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b419631623cb116aa3073e70a46f0a26') in 0.0090722 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5968bb2d4c8cab16f660ffdfbc1ee66 DependenciesID=4689d3b37f0ee81bb72518bceff66639 StaticDependenciesID=505c7b84e7dbf034b3f8d677d9a3dea7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Character_Cactus/Texture/Сactus_specular.tga
+  importAddress: Guid(da0d541c4a819454696890f2ce56dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Character_Cactus/Texture/Сactus_specular.tga using Guid(da0d541c4a819454696890f2ce56dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1055b09ae06d4d885d918490e8aacd08') in 0.0112311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2e32ad2ee62e758a33bd6cb9957926c DependenciesID=02bb83278e44b568d00f28ecf9547718 StaticDependenciesID=c46d189bf187443fa018d43525601730 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.png
+  importAddress: Guid(785d2f53d721c1248bc0114a59dded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.png using Guid(785d2f53d721c1248bc0114a59dded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b1e655af0672107beee5644de4e616c2') in 0.009648 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=012e05f7cc5a58d31c8bd7762e5e2618 DependenciesID=09f7723d1af0a972ee5a9d96bf738f47 StaticDependenciesID=890002b1d47cad903069fe479e1d54b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_back.png
+  importAddress: Guid(d1fca55857b844b1bed302409cc301f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_back.png using Guid(d1fca55857b844b1bed302409cc301f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9b8e6b55661a97d97ab6f28281b188ea') in 0.010054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f12de7f0976bc356819a3614170b8b15 DependenciesID=3c007e5aeb1402c5408d2d5cbbdd0059 StaticDependenciesID=06dd71b5a619e14755a9c9ffbea98ad0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.png
+  importAddress: Guid(6c463b2c91c1e2c47b18f0c6196fa837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.png using Guid(6c463b2c91c1e2c47b18f0c6196fa837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3ea0379b22780d7b08193df8331e8842') in 0.0089158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=004b36670c8fb392c1d6785760432a25 DependenciesID=19adb133b7e517b5b11d5e3e2e8d2ed0 StaticDependenciesID=d4197aca137cdc0b96346109218d062b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Adham White (n12684511)/Assets 1/Smoke.psd
+  importAddress: Guid(03a38157d167f9a4aa5d4a3e004cf978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Assets 1/Smoke.psd using Guid(03a38157d167f9a4aa5d4a3e004cf978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cb2a434d0546020ab8b3e4600fa84bc9') in 0.0098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e815340fc8ade726cb75ae3c1eecf614 DependenciesID=d0468dd7b610374e81a4aebefdb3573c StaticDependenciesID=c589971cf4bafc3468c12cf617860de7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Scenes/New Terrain.asset
+  importAddress: Guid(02dd61b312d63e406a61da96fb460f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/KnightFerret/Simple Modular Pillars/Scenes/New Terrain.asset using Guid(02dd61b312d63e406a61da96fb460f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0ad9a9f5cd440aa6674658bec6474af0') in 0.0143993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb1e845dc6015a9a6f34adbbe93c53e2 DependenciesID=355d76ef34ff0083bc4c404cbb05e112 StaticDependenciesID=3be98391f648c31c814ec0d36df462c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Character_Cactus/Texture/Сactus_diffuse.tga
+  importAddress: Guid(bdfea07a16323da47bba610c7a79d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Character_Cactus/Texture/Сactus_diffuse.tga using Guid(bdfea07a16323da47bba610c7a79d871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea5adfc40d7cc6eae4ea06aec2bfab03') in 0.0096516 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca8eb85db9c160472bf91bce72b9cf5a DependenciesID=796cb2941ff0fc89ad2fcefdc592bcc2 StaticDependenciesID=0b4e8ed647bb399321d4966c2f7be9cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.png
+  importAddress: Guid(35e570733089da449b0108e0a643df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.png using Guid(35e570733089da449b0108e0a643df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b5514ab083d660b39652517e03aa5f77') in 0.009478 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86420d327c2287de30c20d20240501f7 DependenciesID=24d82cdb82834b345fcc66ae3afbbc3c StaticDependenciesID=ff30d20b7132ea13350c9e9d7ff7332e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_up.png
+  importAddress: Guid(65b6b8a1fb834a9f8ed87f7da738ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_up.png using Guid(65b6b8a1fb834a9f8ed87f7da738ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c9b3521c4cd54b3554bbcd4b91dd44fd') in 0.0094303 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8e9d1c74f809b6200c17c9f15bd2533 DependenciesID=a14cf65a35e97a63952a5fa890d32669 StaticDependenciesID=b87c058d68c4643a0d03ddf1f34fbecb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.png
+  importAddress: Guid(b8e381cbde763c447b317ef7d4355712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.png using Guid(b8e381cbde763c447b317ef7d4355712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f7fe86dc6441369fd65f1f2a0fd8f9f2') in 0.0092695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d5cdf2a6d728bbcacfbc8aa9d9a086e DependenciesID=1145bb36d0a0fa84933a864d2660d67d StaticDependenciesID=410a395dd125ce8149d69d3c8adf681e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Tower/Textures/Texture photoshop.psd
+  importAddress: Guid(30e397c9a85280e4d9e674484c4150b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Tower/Textures/Texture photoshop.psd using Guid(30e397c9a85280e4d9e674484c4150b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f63ecf71e64ece366b8bb5c8714523ac') in 0.0103934 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe7f0e003107ebcd66e188553848c1b5 DependenciesID=6aedc343d39c540b26d5338b4990aace StaticDependenciesID=37604194da0077b13eb2be242eca01f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons/ReflectionProbe-0.exr
+  importAddress: Guid(b6b8f197bf9fa894aa14452aece00a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons/ReflectionProbe-0.exr using Guid(b6b8f197bf9fa894aa14452aece00a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3af02df0444f00fdbc2587558fcdc078') in 0.0121207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d714db4cf98d6b566ce84fe3b1ab47e0 DependenciesID=b4ca66f2637bd7f0c795bde083283c98 StaticDependenciesID=201e33cc2145281554694a866a59cc86 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.png
+  importAddress: Guid(873c5c5ed605db24690f89923871b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.png using Guid(873c5c5ed605db24690f89923871b86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3351d377fbfa48dad1efad18db8ef953') in 0.0089596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b7d47e3f8d58e28aa300d9b6bc58b77 DependenciesID=94fa6004fc3de3a69cb0d4dbc116cecc StaticDependenciesID=7343977d777f4dd1c55e47db7c95a93a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-09.png
+  importAddress: Guid(a7dceb2629f36ce4ea00b2c8324419e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-09.png using Guid(a7dceb2629f36ce4ea00b2c8324419e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a4e3fafc3fdcd3987fc5d3cee163657c') in 0.0105547 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43ed353f15d911ded865ed7fa8b95964 DependenciesID=8b09706c0118e04ed11869f36943917c StaticDependenciesID=9bd287c32b3e7e9e3cb287c17bae12db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.png
+  importAddress: Guid(f5b32c79491e7384e93e8526af9c0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.png using Guid(f5b32c79491e7384e93e8526af9c0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1cfd2e131151d15bdade723f1cf56537') in 0.0093132 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5b18184471e95381883b29e89dbbd4c DependenciesID=1edaa5d2f22f180c9949532c789dd646 StaticDependenciesID=ff749d91ad23d0e204429ee3c35503a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_down.png
+  importAddress: Guid(dd8b9074a41740b48931999f45564c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Samples/ProBuilder/6.0.9/Runtime Examples/Icosphere FFT/Skybox/Space_down.png using Guid(dd8b9074a41740b48931999f45564c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '51803135aea924c6eed8d9050cbe7313') in 0.0099577 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3278922c95fe1855975d0bff93a75e01 DependenciesID=a3c3c942ea8b878ae5043dd97cd30d53 StaticDependenciesID=340d7f4e92e5a149b865e38959f60b2c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.660798 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.png
+  importAddress: Guid(1e623ef0f1495bd4188f830da812c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.png using Guid(1e623ef0f1495bd4188f830da812c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8f890de60f597c5cfdd7417702ed8021') in 0.0105508 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e687c0422975d7847958afc3199a56fe DependenciesID=0869614326eecf8aa2c8b953a09895c6 StaticDependenciesID=8ebc500a333f3b76b9d0fb946d5153b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.png
+  importAddress: Guid(b118ab368c4a4b846910231f83304da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.png using Guid(b118ab368c4a4b846910231f83304da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8b35785e9957e5e988c271e02802b6f5') in 0.0094436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=949e8700aa715b699ebb33bd3a2fc696 DependenciesID=57d0fb62949e0812815a60dd279cc28c StaticDependenciesID=8c6e1af7c494342eb5ee66cddc743b44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009686 seconds.
+  path: Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.png
+  importAddress: Guid(1062c851ac463864a975a31507fa79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam Riley-Griffiths (n11796171)/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.png using Guid(1062c851ac463864a975a31507fa79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3810491c2b317e09d9bef8596077c356') in 0.0097454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87b76f820ec15cd83b7a7cd97090530d DependenciesID=4f3fd34e8a479788cebdbaa3fa41db3b StaticDependenciesID=c7273daa70ed9d9da2c95170999a3aae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 598.277228 seconds.
+  path: Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials
+  importAddress: Guid(d74cb923d858487d87782151a00f270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials using Guid(d74cb923d858487d87782151a00f270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cc7408f43320092af2a1dd9fada76dd0') in 0.0007705 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eced61a87ebfa1cfbc1bd9ffcf970500 DependenciesID=7e4bd5f171206eb2e1f45f43957dd671 StaticDependenciesID=0730cefc79c1564c76b0c21a8cd98b87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.701513 seconds.
+  path: Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials/WhiteMaterial.mat
+  importAddress: Guid(39ba90e34bb3e474491702bcca26d723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials/WhiteMaterial.mat using Guid(39ba90e34bb3e474491702bcca26d723) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd8f2629daf1e716f0cb00af4dfaacc46') in 0.0598839 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3813689d18a5639054d8848bbc6d7ad DependenciesID=dea5c04dfdd4a849856faca00a5bd34f StaticDependenciesID=81a8f8166822bbc392fea90d4ca0144d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.147421 seconds.
+  path: Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials/SPP_1.mat
+  importAddress: Guid(2c1e14bf139242c18d57a702b6d90b2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Adham White (n12684511)/Stylized Plants in Pots/Materials/SPP_1.mat using Guid(2c1e14bf139242c18d57a702b6d90b2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 67108864.
+ -> (Import Result ID: '1d3bb3836e3e9a9fc2952925905f1dca') in 0.0451928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=537df7bd7ad5bfceeef40e733a9516ab DependenciesID=e72e6c1feba3104d8d24beda8e5eebfe StaticDependenciesID=2e569e19757aa117e3892874c8e73874 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
