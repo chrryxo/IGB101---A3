@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/- Natasha Cook (n12407950)/!Scene/Natasha_Cook_IGB101_A3.unity
+    path: Assets/1. Natasha Cook (n12407950)/!Scene/Natasha_Cook_IGB101_A3.unity
     guid: f26b653722e7df246b06af64f39e2e7f
   - enabled: 1
-    path: Assets/Adham White (n12684511)/! Scenes/Adham_White_IGB101_A3.unity
+    path: Assets/2. Adham White (n12684511)/! Scenes/Adham_White_IGB101_A3.unity
     guid: bc5a8a893a76e8f4baa1fdc042ed2abb
   - enabled: 1
-    path: Assets/Liam Riley-Griffiths (n11796171)/! Scenes/Liam_Riley-Griffiths_IGB101_A3.unity
+    path: Assets/3. Liam Riley-Griffiths (n11796171)/! Scenes/Liam_Riley-Griffiths_IGB101_A3.unity
     guid: 2103dc6cc08faef4f87648fa028b0e3f
   - enabled: 1
-    path: Assets/James Hua (n11048913)/! Scenes/James_Hua_IGB101_A3.unity
+    path: Assets/4. James Hua (n11048913)/! Scenes/James_Hua_IGB101_A3.unity
     guid: 74728903f322a58459e1d38cba46ab49
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
