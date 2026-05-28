@@ -48,8 +48,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\- Natasha Cook (n12407950)\Scripts\DoorTest.cs" />
     <Compile Include="Assets\Shared Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Natasha Cook (n12407950)\Scripts\DoorTest.cs" />
     <Compile Include="Assets\Shared Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Shared Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Shared Scripts\GameManager.cs" />
@@ -73,7 +73,7 @@
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Natasha Cook (n12407950)\Prefabs\Exit SIgn\Standard 2 Sided.shader" />
+    <None Include="Assets\- Natasha Cook (n12407950)\Prefabs\Exit SIgn\Standard 2 Sided.shader" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -95,7 +95,7 @@
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Natasha Cook (n12407950)\Text\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\- Natasha Cook (n12407950)\Text\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -113,7 +113,7 @@
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Adham White (n12684511)\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Natasha Cook (n12407950)\Text\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\- Natasha Cook (n12407950)\Text\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Adham White (n12684511)\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Liam Riley-Griffiths (n11796171)\Viking Village\Models\MIAS\Centus3D\README.txt" />
