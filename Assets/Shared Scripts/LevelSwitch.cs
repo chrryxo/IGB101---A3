@@ -9,7 +9,7 @@ public class LevelSwitch : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start(){
-       gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+       gameManager = GameObject.FindAnyObjectByType<GameManager>();
     }
 
     // Update is called once per frame
